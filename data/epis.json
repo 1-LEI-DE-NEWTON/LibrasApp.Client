@@ -1,0 +1,20 @@
+{
+  "epis": [
+    {
+      "reactionName": "Reação Ácido-Base 1",
+      "items": [
+        "Óculos de Segurança",
+        "Luvas Nitrílicas",
+        "Jaleco de Algodão de Manga Longa"
+      ]
+    },
+    {
+      "reactionName": "Reação Ácido-Base 2",
+      "items": [
+        "Óculos de Segurança",
+        "Luvas Nitrílicas",
+        "Jaleco de Algodão de Manga Longa"
+      ]
+    }
+  ]
+}

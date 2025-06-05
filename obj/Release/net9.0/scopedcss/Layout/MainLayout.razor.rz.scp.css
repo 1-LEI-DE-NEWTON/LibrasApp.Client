@@ -1,0 +1,89 @@
+body[b-4674mz9sg5], .page[b-4674mz9sg5] {
+    min-height: 100vh;
+    background: #101a23;
+    color: #fff;
+    font-family: 'Lexend', 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page[b-4674mz9sg5] {
+    min-height: 100vh;    
+    background: url('/css/chemistry-bg.png') no-repeat center center fixed;
+    background-size: cover;        
+}
+
+.layout-container[b-4674mz9sg5] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.topbar[b-4674mz9sg5] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #223649;
+    background: transparent;
+    padding: 0.75rem 2.5rem;
+    min-height: 56px;
+    z-index: 10;
+}
+.topbar .app-name[b-4674mz9sg5], .topbar h2[b-4674mz9sg5] {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    margin: 0;
+}
+.topbar .size-4[b-4674mz9sg5] {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topbar nav[b-4674mz9sg5], .topbar .flex-1[b-4674mz9sg5] {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.topbar a[b-4674mz9sg5] {
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.topbar a:hover[b-4674mz9sg5] {
+    color: #7dd3fc;
+}
+
+main[b-4674mz9sg5], .content[b-4674mz9sg5] {
+    flex: 1;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    background: transparent;
+}
+
+.top-row[b-4674mz9sg5], .sidebar[b-4674mz9sg5] {
+    display: none !important;
+}
+
+@media (max-width: 640.98px) {
+    .topbar[b-4674mz9sg5] {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.75rem 1rem;
+    }
+    .topbar nav[b-4674mz9sg5], .topbar .flex-1[b-4674mz9sg5] {
+        gap: 1rem;
+    }
+    main[b-4674mz9sg5], .content[b-4674mz9sg5] {
+        padding: 1rem 0.5rem;
+    }
+}

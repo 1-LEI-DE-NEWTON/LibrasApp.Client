@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "reactionName": "Reação Ácido-Base 1",
+      "items": [
+        "Ácido Clorídrico (HCl) 1M - 50ml",
+        "Hidróxido de Sódio (NaOH) 0.5M - 100ml",
+        "Água Destilada"
+      ]
+    },
+    {
+      "reactionName": "Reação Ácido-Base 2",
+      "items": [
+        "Ácido Acético 1M - 30ml",
+        "Bicarbonato de Sódio - 1 colher de chá",
+        "Água Destilada"
+      ]
+    }
+  ]
+}

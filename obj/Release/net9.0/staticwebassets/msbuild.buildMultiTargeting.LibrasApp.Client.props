@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LibrasApp.Client.props" />
+</Project>
