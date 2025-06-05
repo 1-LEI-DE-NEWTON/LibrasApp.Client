@@ -1,0 +1,73 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = LibrasApp.Client
+build_property.RootNamespace = LibrasApp.Client
+build_property.ProjectDir = C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Pages/ReactionContext.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3Rpb25Db250ZXh0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Pages/ReactionEPIs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3Rpb25FUElzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Pages/ReactionInstruments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3Rpb25JbnN0cnVtZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Pages/ReactionMaterials.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3Rpb25NYXRlcmlhbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Pages/ReactionSelection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3Rpb25TZWxlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Pages/ReactionSteps.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhY3Rpb25TdGVwcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4674mz9sg5
+
+[C:/Users/dell/OneDrive/Estudos/TI/Programação/Códigos/C\#/Personal Projects/LibrasQuimicaApp/LibrasApp.Client/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0et29faw5n
