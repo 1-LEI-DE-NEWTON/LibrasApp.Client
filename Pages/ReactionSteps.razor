@@ -1,0 +1,45 @@
+@page "/reaction-steps/{reactionName}"
+
+@using LibrasApp.Shared.Models
+@using System.Text.Json
+@inject HttpClient Http
+
+<h3>Instruções para a Reação: @reaction?.Name</h3>
+
+@if (reaction != null)
+{
+    <div>
+        <h4>Descrição:</h4>
+        <p>@reaction.Description</p>
+
+        <h4>Passos:</h4>
+        <ol>
+            @foreach (var step in reaction.Steps ?? new List<ReactionStep>())
+            {
+                <li>
+                    <strong>LIBRAS:</strong> @step.Libra<br />
+                    <span style="color:gray"><strong>Português:</strong> @step.Portuguese</span>
+                </li>
+            }
+        </ol>
+    </div>
+}
+else
+{
+    <p>Carregando...</p>
+}
+
+@code {
+    [Parameter]
+    public string? reactionName { get; set; }
+
+    private Reaction? reaction;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Lê todas as reações e seleciona a correta pelo nome
+        var jsonObj = await Http.GetFromJsonAsync<JsonElement>("data/reacoes.json");
+        var reactions = jsonObj.GetProperty("reactions").Deserialize<List<Reaction>>();
+        reaction = reactions?.FirstOrDefault(r => r.Name == reactionName);
+    }
+}

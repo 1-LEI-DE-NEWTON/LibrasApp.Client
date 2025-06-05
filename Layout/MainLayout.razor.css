@@ -1,0 +1,89 @@
+body, .page {
+    min-height: 100vh;
+    background: #101a23;
+    color: #fff;
+    font-family: 'Lexend', 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    min-height: 100vh;    
+    background: url('/css/chemistry-bg.png') no-repeat center center fixed;
+    background-size: cover;        
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #223649;
+    background: transparent;
+    padding: 0.75rem 2.5rem;
+    min-height: 56px;
+    z-index: 10;
+}
+.topbar .app-name, .topbar h2 {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    margin: 0;
+}
+.topbar .size-4 {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topbar nav, .topbar .flex-1 {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.topbar a {
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.topbar a:hover {
+    color: #7dd3fc;
+}
+
+main, .content {
+    flex: 1;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    background: transparent;
+}
+
+.top-row, .sidebar {
+    display: none !important;
+}
+
+@media (max-width: 640.98px) {
+    .topbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.75rem 1rem;
+    }
+    .topbar nav, .topbar .flex-1 {
+        gap: 1rem;
+    }
+    main, .content {
+        padding: 1rem 0.5rem;
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programa\u00E7\u00E3o\\C\u00F3digos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5506C4-B6D5-D071-65F8-5AE59D442983}|LibrasApp.Client.csproj|c:\\users\\dell\\onedrive\\estudos\\ti\\programa\u00E7\u00E3o\\c\u00F3digos\\c#\\personal projects\\librasquimicaapp\\librasapp.client\\pages\\reactionselection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5506C4-B6D5-D071-65F8-5AE59D442983}|LibrasApp.Client.csproj|solutionrelative:pages\\reactionselection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReactionSelection.razor",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programa\u00E7\u00E3o\\C\u00F3digos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\Pages\\ReactionSelection.razor",
+              "RelativeDocumentMoniker": "Pages\\ReactionSelection.razor",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programa\u00E7\u00E3o\\C\u00F3digos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\Pages\\ReactionSelection.razor",
+              "RelativeToolTip": "Pages\\ReactionSelection.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:08:45.116Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

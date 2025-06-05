@@ -1,0 +1,128 @@
+@page "/reaction-materials/{reactionName}"
+
+@using System.Text.Json
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<div class="materials-container">
+    @if (materials == null)
+    {
+        <p><em>Carregando materiais...</em></p>
+    }
+    else
+    {
+        <h1 class="materials-title">Passo 2: Materiais e Reagentes Necessários</h1>
+        <p class="materials-desc">Certifique-se de ter os seguintes materiais e reagentes disponíveis:</p>
+        <ul class="materials-list">
+            @foreach (var item in materials)
+            {
+                <li>@item</li>
+            }
+        </ul>
+        <div class="materials-btns">
+            <button class="back-btn" @onclick="GoBack">Voltar</button>
+            <button class="next-btn" @onclick="GoToNext">Próximo</button>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string? reactionName { get; set; }
+
+    private List<string>? materials;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var jsonObj = await Http.GetFromJsonAsync<JsonElement>("data/materiais.json");
+        var all = jsonObj.GetProperty("materials").EnumerateArray();
+        foreach (var entry in all)
+        {
+            if (entry.GetProperty("reactionName").GetString() == reactionName)
+            {
+                materials = entry.GetProperty("items").Deserialize<List<string>>();
+                break;
+            }
+        }
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo($"/reaction-instruments/{Uri.EscapeDataString(reactionName ?? "")}");
+    }
+
+    private void GoToNext()
+    {
+        NavigationManager.NavigateTo("/reaction-epis/" + Uri.EscapeDataString(reactionName ?? ""));
+    }
+}
+
+<style>
+.materials-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.materials-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    color: black;
+}
+.materials-desc {
+    color: #60758a;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.materials-list {
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #222;
+    padding-left: 0;
+}
+.materials-list li {
+    margin-bottom: 1.1rem;
+}
+.materials-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.back-btn {
+    background: #f5f5f7;
+    color: #222;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.back-btn:hover {
+    background: #e0e0e0;
+}
+.next-btn {
+    background: #c9e0f2;
+    color: #222;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.next-btn:hover {
+    background: #b0cbe0;
+}
+</style>

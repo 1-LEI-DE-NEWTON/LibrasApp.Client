@@ -1,0 +1,70 @@
+@page "/"
+
+<div class="big-menu-container">
+    <h1>Bem-vindo ao LibrasApp</h1>
+    <p>Plataforma de apoio ao ensino de práticas de reações químicas para alunos surdos.</p>
+    <div class="big-menu-buttons">
+        <button class="big-menu-btn" @onclick="NavigateToAcidoBase">
+            Reações Ácido-Base
+        </button>
+        <button class="big-menu-btn">
+            Reações de Oxidação-Redução (em breve)
+        </button>
+        <button class="big-menu-btn" disabled>
+            Outras Reações (em breve)
+        </button>
+    </div>
+</div>
+
+@code {
+    [Inject] NavigationManager NavigationManager { get; set; } = default!;
+    private void NavigateToAcidoBase() => NavigationManager.NavigateTo("/reaction-selection");
+}
+
+<style>
+.big-menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.big-menu-buttons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-direction: row;
+}
+.big-menu-btn {
+    font-size: 1.3rem;
+    padding: 2rem 2.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    background: #1976d2;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+    min-width: 220px;
+    min-height: 120px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.big-menu-btn:disabled {
+    background: #bdbdbd;
+    cursor: not-allowed;
+}
+.big-menu-btn:not(:disabled):hover {
+    background: #125ea2;
+}
+
+@@media (max-width: 640.98px) {
+  .big-menu-buttons {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: stretch;
+  }
+  .big-menu-btn {
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+</style>

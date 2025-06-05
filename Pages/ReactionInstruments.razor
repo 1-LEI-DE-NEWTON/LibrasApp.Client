@@ -1,0 +1,100 @@
+@page "/reaction-instruments/{reactionName}"
+
+@using System.Text.Json
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<div class="instruments-container">
+    @if (instruments == null)
+    {
+        <p><em>Carregando instrumentos...</em></p>
+    }
+    else
+    {
+        <h1 class="instruments-title">Passo 1: Instrumentos Necessários</h1>
+        <p class="instruments-desc">Para realizar esta reação, você precisará dos seguintes instrumentos:</p>
+        <ul class="instruments-list">
+            @foreach (var item in instruments)
+            {
+                <li>@item</li>
+            }
+        </ul>
+        <button class="next-step-btn" @onclick="GoToSteps">Próximo Passo</button>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string? reactionName { get; set; }
+
+    private List<string>? instruments;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var jsonObj = await Http.GetFromJsonAsync<JsonElement>("data/instrumentos.json");
+        var all = jsonObj.GetProperty("instruments").EnumerateArray();
+        foreach (var entry in all)
+        {
+            if (entry.GetProperty("reactionName").GetString() == reactionName)
+            {
+                instruments = entry.GetProperty("items").Deserialize<List<string>>();
+                break;
+            }
+        }
+    }
+
+    private void GoToSteps()
+    {
+        NavigationManager.NavigateTo($"/reaction-materials/{Uri.EscapeDataString(reactionName ?? "")}");
+    }
+}
+
+<style>
+.instruments-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.instruments-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+.instruments-desc {
+    color: #60758a;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.instruments-list {
+    list-style: disc inside;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #333;
+}
+.instruments-list li {
+    margin-bottom: 0.7rem;
+}
+.next-step-btn {
+    align-self: flex-end;
+    background: #e3eef8;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.7rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.next-step-btn:hover {
+    background: #c9e0f2;
+}
+</style>

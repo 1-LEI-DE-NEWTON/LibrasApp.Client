@@ -1,0 +1,141 @@
+@page "/reaction-epis/{reactionName}"
+
+@using System.Text.Json
+@using System.Net.Http.Json
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<div class="epis-container">
+    @if (epis == null)
+    {
+        <p><em>Carregando EPIs...</em></p>
+    }
+    else
+    {
+        <h1 class="epis-title">Passo 3: Equipamentos de Proteção Individual (EPIs)</h1>
+        <p class="epis-desc">Segurança em primeiro lugar! Utilize os seguintes EPIs durante todo o procedimento:</p>
+        <ul class="epis-list">
+            @foreach (var item in epis)
+            {
+                <li><span class="epi-icon">&#128737;</span>@item</li>
+            }
+        </ul>
+        <div class="epis-btns">
+            <button class="back-btn" @onclick="GoBack">Anterior</button>
+            <button class="next-btn" @onclick="GoToNext">Próximo</button>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string? reactionName { get; set; }
+
+    private List<string>? epis;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var jsonObj = await Http.GetFromJsonAsync<JsonElement>("data/epis.json");
+        var all = jsonObj.GetProperty("epis").EnumerateArray();
+        foreach (var entry in all)
+        {
+            if (entry.GetProperty("reactionName").GetString() == reactionName)
+            {
+                epis = entry.GetProperty("items").Deserialize<List<string>>();
+                break;
+            }
+        }
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo($"/reaction-materials/{Uri.EscapeDataString(reactionName ?? "")}");
+    }
+
+    private void GoToNext()
+    {
+        NavigationManager.NavigateTo($"/reaction-steps/{Uri.EscapeDataString(reactionName ?? "")}");
+    }
+}
+
+<style>
+.epis-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.epis-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+    color: #111418;
+}
+.epis-desc {
+    color: #3b82f6;
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 2.2rem;
+}
+.epis-list {
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #222;
+    padding-left: 0;
+}
+.epis-list li {
+    margin-bottom: 1.1rem;
+    display: flex;
+    align-items: center;
+    background: #f5f5f7;
+    border-radius: 12px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+.epi-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #3b82f6;
+}
+.epis-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.back-btn {
+    background: #f5f5f7;
+    color: #222;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.back-btn:hover {
+    background: #e0e0e0;
+}
+.next-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.next-btn:hover {
+    background: #2563eb;
+}
+</style>

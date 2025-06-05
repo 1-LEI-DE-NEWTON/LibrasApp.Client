@@ -1,0 +1,76 @@
+@page "/reaction-context/{reactionName}"
+
+@using LibrasApp.Shared.Models
+@using System.Text.Json
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<div class="reaction-context-container">
+    @if (_reaction == null)
+    {
+        <p><em>Carregando reação...</em></p>
+    }
+    else
+    {
+        <h1 class="reaction-title">@_reaction.Name</h1>
+        <p class="reaction-description">@_reaction.Description</p>
+        <button class="start-steps-btn" @onclick="GoToSteps">Ver Instrumentos</button>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string? reactionName { get; set; }
+
+    private LibrasApp.Shared.Models.Reaction? _reaction;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var jsonObj = await Http.GetFromJsonAsync<JsonElement>("data/reacoes.json");
+        var reactions = jsonObj.GetProperty("reactions").Deserialize<List<LibrasApp.Shared.Models.Reaction>>();
+        _reaction = reactions?.FirstOrDefault(r => r.Name == reactionName);
+    }
+
+    private void GoToSteps()
+    {
+        NavigationManager.NavigateTo($"/reaction-instruments/{Uri.EscapeDataString(_reaction?.Name ?? "")}");
+    }
+}
+
+<style>
+.reaction-context-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.reaction-title {
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-bottom: 0.7rem;
+}
+.reaction-description {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 2.2rem;
+}
+.start-steps-btn {
+    background: #1976d2;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.9rem 2.2rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.start-steps-btn:hover {
+    background: #125ea2;
+}
+</style>
