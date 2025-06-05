@@ -1,2 +1,17 @@
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\web.config
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\LibrasApp.Client.staticwebassets.endpoints.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\publish\LibrasApp.Client.staticwebassets.endpoints.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\publish\vercel.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\publish\wwwroot\data\epis.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\publish\wwwroot\data\instrumentos.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\publish\wwwroot\data\materiais.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\publish\wwwroot\data\reacoes.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\publish\wwwroot\_framework\blazor.boot.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\vercel.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\wwwroot\data\epis.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\wwwroot\data\instrumentos.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\wwwroot\data\materiais.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\wwwroot\data\reacoes.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\publish\wwwroot\_framework\blazor.boot.json
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\vercel.json
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\web.config

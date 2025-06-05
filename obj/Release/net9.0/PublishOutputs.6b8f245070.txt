@@ -1,5 +1,12 @@
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\web.config
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\LibrasApp.Client.staticwebassets.endpoints.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\publish\LibrasApp.Client.staticwebassets.endpoints.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\publish\vercel.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\publish\wwwroot\data\epis.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\publish\wwwroot\data\instrumentos.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\publish\wwwroot\data\materiais.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\publish\wwwroot\data\reacoes.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\publish\wwwroot\_framework\blazor.boot.json
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\vercel.json
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\wwwroot\data\epis.json
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Release\net9.0\publish\publish\wwwroot\data\instrumentos.json

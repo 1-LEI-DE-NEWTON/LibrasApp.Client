@@ -1,0 +1,51 @@
+{
+  "reactions": [
+    {
+      "name": "Reação Ácido-Base 1",
+      "description": "Esta é uma reação simples entre um ácido e uma base.",
+      "steps": [
+        {
+          "step": 1,
+          "libra": "Adicione 50 ml de ácido clorídrico a um béquer.",
+          "portuguese": "Adicione 50 ml de ácido clorídrico a um béquer."
+        },
+        {
+          "step": 2,
+          "libra": "Adicione 50 ml de hidróxido de sódio ao béquer.",
+          "portuguese": "Adicione 50 ml de hidróxido de sódio ao béquer."
+        },
+        {
+          "step": 3,
+          "libra": "Misture bem a solução com uma vara de vidro.",
+          "portuguese": "Misture bem a solução com uma vara de vidro."
+        },
+        {
+          "step": 4,
+          "libra": "Observe a mudança de cor da solução.",
+          "portuguese": "Observe a mudança de cor da solução."
+        }
+      ]
+    },
+    {
+      "name": "Reação Ácido-Base 2",
+      "description": "Esta é uma reação entre ácido acético e bicarbonato de sódio.",
+      "steps": [
+        {
+          "step": 1,
+          "libra": "Adicione 30 ml de ácido acético a um béquer.",
+          "portuguese": "Adicione 30 ml de ácido acético a um béquer."
+        },
+        {
+          "step": 2,
+          "libra": "Adicione uma colher de chá de bicarbonato de sódio.",
+          "portuguese": "Adicione uma colher de chá de bicarbonato de sódio."
+        },
+        {
+          "step": 3,
+          "libra": "Observe a efervescência que ocorre.",
+          "portuguese": "Observe a efervescência que ocorre."
+        }
+      ]
+    }
+  ]
+}

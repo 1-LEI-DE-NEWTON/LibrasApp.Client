@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibrasApp.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5663641eb5b2160a28f8bfe8e91ab534328e5ac1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f20c46c17573ffe68d3933daaf265e7ab6659bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibrasApp.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibrasApp.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
