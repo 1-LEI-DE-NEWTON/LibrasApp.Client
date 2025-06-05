@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "LibrasApp.Client",
   "resources": {
-    "hash": "sha256-Oh5MhnJ2Pex1bgmcSMLDC3HUUzl46YicNB7Dhr4MSa0=",
+    "hash": "sha256-iM2YOu6ogtS/dAF6tk/CLiUtBnW1Ogyn9Our4d6Awwc=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "LibrasApp.Client.qoaue6eblz.wasm": "LibrasApp.Client.wasm",
-      "LibrasApp.Client.5nflxi9q7o.pdb": "LibrasApp.Client.pdb"
+      "LibrasApp.Client.56d00z14hy.wasm": "LibrasApp.Client.wasm",
+      "LibrasApp.Client.98to0y3l95.pdb": "LibrasApp.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8o8n7iomrf.js": "sha256-WIUiy49hHQ3kOAtRdCtUzm3Yg5BnOqCC+Q+kri9Fi1g="
@@ -412,10 +412,10 @@
       "WindowsBase.ovqw333kan.wasm": "sha256-7LCr4nX9JSGuwzMr8Rk8TGvC6ApzQNxCDiMV/0I9JlI=",
       "mscorlib.l6md3pggqy.wasm": "sha256-jZgH0LixLeQKqaq33akQgDGhfE7vbXbHtvCId5HC0Yo=",
       "netstandard.lij9csiyuf.wasm": "sha256-DeeBl9s8G34N3IfYRQ+MoY807amodj8cvpuvUSNaWE4=",
-      "LibrasApp.Client.qoaue6eblz.wasm": "sha256-mtccZjP+E5NY2ba0PlzuPjT8vQ6OrSsIKBqp4c0YxFc="
+      "LibrasApp.Client.56d00z14hy.wasm": "sha256-rb71fuWixngjnVgjjTN1R0s2VyPgVWpjs2jxGmttsBI="
     },
     "pdb": {
-      "LibrasApp.Client.5nflxi9q7o.pdb": "sha256-j2SS/E6NaU7zUKY/nRPFoPaWAyBCAWcsZ+0wvV5GZf4="
+      "LibrasApp.Client.98to0y3l95.pdb": "sha256-+eEAI9mymbhAA0LGi4h2Rh4OHVT3XZHL7jNig9aEbhU="
     }
   },
   "cacheBootResources": true,

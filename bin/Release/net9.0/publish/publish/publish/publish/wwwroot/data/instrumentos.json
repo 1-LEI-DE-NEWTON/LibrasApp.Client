@@ -1,0 +1,22 @@
+{
+  "instruments": [
+    {
+      "reactionName": "Reação Ácido-Base 1",
+      "items": [
+        "Béquer",
+        "Ácido clorídrico",
+        "Hidróxido de sódio",
+        "Vara de vidro"
+      ]
+    },
+    {
+      "reactionName": "Reação Ácido-Base 2",
+      "items": [
+        "Béquer",
+        "Ácido acético",
+        "Bicarbonato de sódio",
+        "Colher de chá"
+      ]
+    }
+  ]
+}
