@@ -1,0 +1,2 @@
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\vercel.json
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\publish\web.config
