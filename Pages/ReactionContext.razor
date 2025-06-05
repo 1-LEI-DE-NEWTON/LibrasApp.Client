@@ -14,7 +14,7 @@
     {
         <h1 class="reaction-title">@_reaction.Name</h1>
         <p class="reaction-description">@_reaction.Description</p>
-        <button class="start-steps-btn" @onclick="GoToSteps">Ver Instrumentos</button>
+        <button class="next-btn" @onclick="GoToSteps">Ver Instrumentos</button>
     }
 </div>
 
@@ -59,18 +59,18 @@
     color: #222;
     margin-bottom: 2.2rem;
 }
-.start-steps-btn {
-    background: #1976d2;
+.next-btn {
+    background: #3b82f6;
     color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
     border: none;
-    border-radius: 8px;
-    padding: 0.9rem 2.2rem;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
     cursor: pointer;
     transition: background 0.2s;
 }
-.start-steps-btn:hover {
-    background: #125ea2;
+.next-btn:hover {
+    background: #2563eb;
 }
 </style>

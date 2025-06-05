@@ -3,6 +3,7 @@
 @using LibrasApp.Shared.Models
 @using System.Text.Json
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 
 <h3>Instruções para a Reação: @reaction?.Name</h3>
 
@@ -22,6 +23,10 @@
                 </li>
             }
         </ol>
+        <div class="steps-btns">
+            <button class="back-btn" @onclick="GoBack">Voltar</button>
+            <button class="next-btn" @onclick="GoToFinish">Finalizar</button>
+        </div>
     </div>
 }
 else
@@ -42,4 +47,49 @@ else
         var reactions = jsonObj.GetProperty("reactions").Deserialize<List<Reaction>>();
         reaction = reactions?.FirstOrDefault(r => r.Name == reactionName);
     }
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo($"/reaction-epis/{Uri.EscapeDataString(reactionName ?? "")}");
+    }
+    private void GoToFinish()
+    {
+        NavigationManager.NavigateTo("/");
+    }
 }
+
+<style>
+.steps-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    align-self: stretch;
+}
+.back-btn {
+    background: #c9e0f2;
+    color: #222;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.back-btn:hover {
+    background: #b0cbe0;
+}
+.next-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.next-btn:hover {
+    background: #2563eb;
+}
+</style>

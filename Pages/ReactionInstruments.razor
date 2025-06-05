@@ -19,7 +19,7 @@
                 <li>@item</li>
             }
         </ul>
-        <button class="next-step-btn" @onclick="GoToSteps">Próximo Passo</button>
+        <button class="next-btn" @onclick="GoToSteps">Próximo Passo</button>
     }
 </div>
 
@@ -82,19 +82,18 @@
 .instruments-list li {
     margin-bottom: 0.7rem;
 }
-.next-step-btn {
-    align-self: flex-end;
-    background: #e3eef8;
-    color: #222;
+.next-btn {
+    background: #3b82f6;
+    color: #fff;
     border: none;
-    border-radius: 8px;
-    padding: 0.7rem 1.7rem;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.1rem;
     cursor: pointer;
     transition: background 0.2s;
 }
-.next-step-btn:hover {
-    background: #c9e0f2;
+.next-btn:hover {
+    background: #2563eb;
 }
 </style>
