@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lh16sbxhvp</Fingerprint>
-      <Integrity>CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo=</Integrity>
+      <Fingerprint>buzer8ntp7</Fingerprint>
+      <Integrity>DYiPgh8F4TnS1bNLAirKwzAMYdW7LgRtT1qlNym0iBc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\epis.json'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>blqrxjkb7x</Fingerprint>
-      <Integrity>X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848=</Integrity>
+      <Fingerprint>vuggavj751</Fingerprint>
+      <Integrity>V89gXwAHubkwnRHi4oUmVaJHUO6SNOIJz/PriJSMzHk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\instrumentos.json'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kf9qghc28s</Fingerprint>
-      <Integrity>QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0=</Integrity>
+      <Fingerprint>047nwxr6ee</Fingerprint>
+      <Integrity>QAhaElOQxWPVCrlVilW6qd97amyDbeTOsty2eZh7B/0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\materiais.json'))</OriginalItemSpec>
