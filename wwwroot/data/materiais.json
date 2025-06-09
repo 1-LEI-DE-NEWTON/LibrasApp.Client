@@ -3,18 +3,18 @@
     {
       "reactionName": "Reação Ácido-Base 1",
       "items": [
-        "Água Potável",
-        "Solução de Bicarbonato de sódio (NaHCO3) 1,0 mol/L",
-        "Indicador ácido-base de Repolho roxo",
-        "Vinagre Branco/Ácido Acético (CH3COOH)"
+        { "name": "Água Potável", "iconUrl": "data/icons/agua_potavel.png" },
+        { "name": "Solução de Bicarbonato de sódio (NaHCO3) 1,0 mol/L", "iconUrl": "data/icons/solucao.png" },
+        { "name": "Indicador ácido-base de Repolho roxo", "iconUrl": "data/icons/escala_ph.png" },
+        { "name": "Vinagre Branco/Ácido Acético (CH3COOH)", "iconUrl": "data/icons/acido_acetico.png" }
       ]
     },
     {
       "reactionName": "Reação Ácido-Base 2",
       "items": [
-        "Ácido Acético 1M - 30ml",
-        "Bicarbonato de Sódio - 1 colher de chá",
-        "Água Destilada"
+        { "name": "Ácido Acético 1M - 30ml", "iconUrl": "data/icons/acido_acetico.png" },
+        { "name": "Bicarbonato de Sódio - 1 colher de chá", "iconUrl": "data/icons/bicarbonato_sodio.png" },
+        { "name": "Água Destilada", "iconUrl": "data/icons/agua_destilada.png" }
       ]
     }
   ]

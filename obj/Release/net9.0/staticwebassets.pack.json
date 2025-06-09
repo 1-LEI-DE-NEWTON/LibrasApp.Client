@@ -21,6 +21,38 @@
       "PackagePath": "staticwebassets\\data\\epis.json"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\acido_acetico.png",
+      "PackagePath": "staticwebassets\\data\\icons\\acido_acetico.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\agua_potavel.png",
+      "PackagePath": "staticwebassets\\data\\icons\\agua_potavel.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\copo_de_agua.png",
+      "PackagePath": "staticwebassets\\data\\icons\\copo_de_agua.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\escala_ph.png",
+      "PackagePath": "staticwebassets\\data\\icons\\escala_ph.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\palito_madeira.png",
+      "PackagePath": "staticwebassets\\data\\icons\\palito_madeira.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\pipeta_p.png",
+      "PackagePath": "staticwebassets\\data\\icons\\pipeta_p.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\proveta.png",
+      "PackagePath": "staticwebassets\\data\\icons\\proveta.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\solucao.png",
+      "PackagePath": "staticwebassets\\data\\icons\\solucao.png"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json",
       "PackagePath": "staticwebassets\\data\\instrumentos.json"
     },

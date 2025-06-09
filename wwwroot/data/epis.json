@@ -3,19 +3,19 @@
     {
       "reactionName": "Reação Ácido-Base 1",
       "items": [
-        "Calça comprida",
-        "Sapato fechado",
-        "Jaleco",
-        "Luvas de látex",
-        "Óculos de proteção"
+        { "name": "Calça comprida", "icon": "👖" },
+        { "name": "Sapato fechado", "icon": "👞" },
+        { "name": "Jaleco", "icon": "🥼" },
+        { "name": "Luvas de látex", "icon": "🧤" },
+        { "name": "Óculos de proteção", "icon": "🥽" }
       ]
     },
     {
       "reactionName": "Reação Ácido-Base 2",
       "items": [
-        "Óculos de Segurança",
-        "Luvas Nitrílicas",
-        "Jaleco de Algodão de Manga Longa"
+        { "name": "Óculos de Segurança", "icon": "🥽" },
+        { "name": "Luvas Nitrílicas", "icon": "🧤" },
+        { "name": "Jaleco de Algodão de Manga Longa", "icon": "🥼" }
       ]
     }
   ]

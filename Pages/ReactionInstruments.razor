@@ -16,7 +16,10 @@
         <ul class="instruments-list">
             @foreach (var item in instruments)
             {
-                <li>@item</li>
+                <li>
+                    <img src="@item.iconUrl" alt="@item.name" class="instrument-img" />
+                    @item.name
+                </li>
             }
         </ul>
         <button class="next-btn" @onclick="GoToSteps">Próximo Passo</button>
@@ -27,7 +30,13 @@
     [Parameter]
     public string? reactionName { get; set; }
 
-    private List<string>? instruments;
+    private List<InstrumentItem>? instruments;
+
+    public class InstrumentItem
+    {
+        public string name { get; set; } = "";
+        public string iconUrl { get; set; } = "";
+    }
 
     protected override async Task OnInitializedAsync()
     {
@@ -37,7 +46,7 @@
         {
             if (entry.GetProperty("reactionName").GetString() == reactionName)
             {
-                instruments = entry.GetProperty("items").Deserialize<List<string>>();
+                instruments = entry.GetProperty("items").Deserialize<List<InstrumentItem>>();
                 break;
             }
         }
@@ -59,7 +68,7 @@
     padding: 2.5rem 2rem 2rem 2rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
 }
 .instruments-title {
     font-size: 2.2rem;
@@ -74,13 +83,28 @@
     margin-bottom: 1.5rem;
 }
 .instruments-list {
-    list-style: disc inside;
+    list-style: none;
     font-size: 1.2rem;
     margin-bottom: 2.5rem;
-    color: #333;
+    color: #222;
+    padding-left: 0;
 }
 .instruments-list li {
-    margin-bottom: 0.7rem;
+    margin-bottom: 1.1rem;
+    display: flex;
+    align-items: center;
+    background: #f5f5f7;
+    border-radius: 12px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+.instrument-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 1rem;
+    object-fit: contain;
+    vertical-align: middle;
 }
 .next-btn {
     background: #3b82f6;

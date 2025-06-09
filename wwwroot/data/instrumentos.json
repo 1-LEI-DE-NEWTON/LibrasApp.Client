@@ -3,20 +3,20 @@
     {
       "reactionName": "Reação Ácido-Base 1",
       "items": [
-        "Copos de plástico transparentes, 200 mL",
-        "Pipeta de Pasteur",
-        "Palito de madeira",
-        "Proveta, 50 mL",
-        "Escala indicadora de pH"
+        { "name": "Copos de plástico transparentes, 200 mL", "iconUrl": "data/icons/copo_de_agua.png" },
+        { "name": "Pipeta de Pasteur", "iconUrl": "data/icons/pipeta_p.png" },
+        { "name": "Palito de madeira", "iconUrl": "data/icons/palito_madeira.png" },
+        { "name": "Proveta, 50 mL", "iconUrl": "data/icons/proveta.png" },
+        { "name": "Escala indicadora de pH", "iconUrl": "data/icons/escala_ph.png" }
       ]
     },
     {
       "reactionName": "Reação Ácido-Base 2",
       "items": [
-        "Béquer",
-        "Ácido acético",
-        "Bicarbonato de sódio",
-        "Colher de chá"
+        { "name": "Béquer", "iconUrl": "data/icons/bequer.png" },
+        { "name": "Ácido acético", "iconUrl": "data/icons/acido_acetico.png" },
+        { "name": "Bicarbonato de sódio", "iconUrl": "data/icons/bicarbonato_sodio.png" },
+        { "name": "Colher de chá", "iconUrl": "data/icons/colher_cha.png" }
       ]
     }
   ]

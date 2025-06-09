@@ -17,7 +17,9 @@
         <ul class="epis-list">
             @foreach (var item in epis)
             {
-                <li><span class="epi-icon">&#128737;</span>@item</li>
+                <li>
+                    <span class="epi-icon">@item.icon</span>@item.name
+                </li>
             }
         </ul>
         <div class="epis-btns">
@@ -31,7 +33,13 @@
     [Parameter]
     public string? reactionName { get; set; }
 
-    private List<string>? epis;
+    private List<EpiItem>? epis;
+
+    public class EpiItem
+    {
+        public string name { get; set; } = "";
+        public string icon { get; set; } = "";
+    }
 
     protected override async Task OnInitializedAsync()
     {
@@ -41,7 +49,7 @@
         {
             if (entry.GetProperty("reactionName").GetString() == reactionName)
             {
-                epis = entry.GetProperty("items").Deserialize<List<string>>();
+                epis = entry.GetProperty("items").Deserialize<List<EpiItem>>();
                 break;
             }
         }

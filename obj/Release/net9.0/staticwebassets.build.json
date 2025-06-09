@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p0Lhq3xTeJGLA85c/6hJr3zLcDF42KmsWgzUV46+fOo=",
+  "Hash": "3Wd7rza0TC3nrbT1LsMTytzOypdjm34HprunBa+p7cw=",
   "Source": "LibrasApp.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "svnc0tn5lv",
-      "Integrity": "6EfwKqrRUp4/tSlszNz2REngrN/hitOgk/qeJWNAZGI=",
+      "Fingerprint": "jzu2ikpku5",
+      "Integrity": "X7ubtZZf05UvbQY7IvkJnyXknP8HTNq4LF1DgBoBswc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Release\\net9.0\\blazor.boot.json"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "8nepdf2nwp",
-      "Integrity": "ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g=",
+      "Fingerprint": "9chgkuqval",
+      "Integrity": "Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Release\\net9.0\\LibrasApp.Client.pdb"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "hyz95a7p6o",
-      "Integrity": "t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48=",
+      "Fingerprint": "97yuie5qew",
+      "Integrity": "pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\webcil\\LibrasApp.Client.wasm"
@@ -4763,12 +4763,12 @@
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.wasm"
     },
     {
-      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-eojt5t6a4q.gz",
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-tgeiku15ib.gz",
       "SourceId": "LibrasApp.Client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "data/reacoes#[.{fingerprint=eojt5t6a4q}]?.json.gz",
+      "RelativePath": "data/reacoes#[.{fingerprint=tgeiku15ib}]?.json.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4777,8 +4777,8 @@
       "RelatedAsset": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\reacoes.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pydryeb1pc",
-      "Integrity": "cck8zkoJLo1Xpf4NHWBZojHfM4s5NCzlAEE222pDK+4=",
+      "Fingerprint": "znxpogdv1w",
+      "Integrity": "UaG90HwD8v+MY0UexnsJlBhqYg6/xV7zVDWwittEajw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\reacoes.json"
@@ -5288,12 +5288,12 @@
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Transactions.wasm"
     },
     {
-      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-blqrxjkb7x.gz",
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-lpfd2j3dy9.gz",
       "SourceId": "LibrasApp.Client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "data/instrumentos#[.{fingerprint=blqrxjkb7x}]?.json.gz",
+      "RelativePath": "data/instrumentos#[.{fingerprint=lpfd2j3dy9}]?.json.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5302,8 +5302,8 @@
       "RelatedAsset": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rl0b6dhl6l",
-      "Integrity": "Mb4O3kEF/2jkANX8VEnmExfeads3+cjDKzp8C4TsSUw=",
+      "Fingerprint": "dbg3y880uh",
+      "Integrity": "p4hWv9cYhkOoUO0ooJIU36gAPe5j4L6It0xM7TPY0Tk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json"
@@ -5792,12 +5792,12 @@
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.wasm"
     },
     {
-      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-8nepdf2nwp.gz",
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-9chgkuqval.gz",
       "SourceId": "LibrasApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/LibrasApp.Client#[.{fingerprint=8nepdf2nwp}]!.pdb.gz",
+      "RelativePath": "_framework/LibrasApp.Client#[.{fingerprint=9chgkuqval}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5806,8 +5806,8 @@
       "RelatedAsset": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\LibrasApp.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hhfphbqmrf",
-      "Integrity": "pfcS6DmCzF88rY26DtqLXzH2h5nJVTsuspOWx99BxXM=",
+      "Fingerprint": "la8kscu7ja",
+      "Integrity": "A61hWW/Ve0z0FH/JKuqste6/EEHzLOsWs3/rbpLt5mA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\LibrasApp.Client.pdb"
@@ -6548,12 +6548,12 @@
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-lh16sbxhvp.gz",
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-ivflkveiwk.gz",
       "SourceId": "LibrasApp.Client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "data/epis#[.{fingerprint=lh16sbxhvp}]?.json.gz",
+      "RelativePath": "data/epis#[.{fingerprint=ivflkveiwk}]?.json.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6562,8 +6562,8 @@
       "RelatedAsset": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\epis.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2rrjri1mzn",
-      "Integrity": "PiYZJdO+VWx6C+qnaznTvhz6/Ingie4uHqLddmm9fs4=",
+      "Fingerprint": "u1twxomnst",
+      "Integrity": "EpwnT5hAt7ASPzLnn9MdXJpiDlF74eC7XXamAXoIBhY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\epis.json"
@@ -6695,7 +6695,7 @@
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Globalization.wasm"
     },
     {
-      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\hwuidlt74v-svnc0tn5lv.gz",
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\hwuidlt74v-jzu2ikpku5.gz",
       "SourceId": "LibrasApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\",
@@ -6709,8 +6709,8 @@
       "RelatedAsset": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qwz8nkansg",
-      "Integrity": "yg6jsNCbhdY/tlP4pBD3Zpvzrz6/JgQ+UE7onbN/+84=",
+      "Fingerprint": "ufe4j9th33",
+      "Integrity": "5haAvGJfhw2+8SMBj/gqKo67wZpE6nc/9IULrvUa9lk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6779,12 +6779,12 @@
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.wasm"
     },
     {
-      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-kf9qghc28s.gz",
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-br41xyj3md.gz",
       "SourceId": "LibrasApp.Client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "data/materiais#[.{fingerprint=kf9qghc28s}]?.json.gz",
+      "RelativePath": "data/materiais#[.{fingerprint=br41xyj3md}]?.json.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6793,8 +6793,8 @@
       "RelatedAsset": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\materiais.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2bppyys28a",
-      "Integrity": "okk6Vi8wrzS0rSIV6Fj72c6j0V7WL0DAKSCChIqVrgs=",
+      "Fingerprint": "ymrbqu5rnk",
+      "Integrity": "Vv1q0cWSu8ukIs40WU1K2TjLjEkq/8cyrw5ZLLLy4KQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\materiais.json"
@@ -7955,12 +7955,12 @@
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Net.Http.wasm"
     },
     {
-      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-hyz95a7p6o.gz",
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-97yuie5qew.gz",
       "SourceId": "LibrasApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/LibrasApp.Client#[.{fingerprint=hyz95a7p6o}]!.wasm.gz",
+      "RelativePath": "_framework/LibrasApp.Client#[.{fingerprint=97yuie5qew}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7969,8 +7969,8 @@
       "RelatedAsset": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\LibrasApp.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "iox1px3psr",
-      "Integrity": "wq2KIuAaKUpQeZUmm+wfu9ByiKd4x6kQd+3HczgIyx0=",
+      "Fingerprint": "otbuup2r6x",
+      "Integrity": "pKbmI2jgxuqPtge3SnRPW5bfCMrKOY2uPap05ePQc3w=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\LibrasApp.Client.wasm"
@@ -9775,11 +9775,179 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lh16sbxhvp",
-      "Integrity": "CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo=",
+      "Fingerprint": "ivflkveiwk",
+      "Integrity": "nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\epis.json"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\acido_acetico.png",
+      "SourceId": "LibrasApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/icons/acido_acetico#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bfmh0j1n58",
+      "Integrity": "x4cChAjQFHdqiavZcnCKYNH8sP924QkSHlnMJ6Rj2bw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\icons\\acido_acetico.png"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\agua_potavel.png",
+      "SourceId": "LibrasApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/icons/agua_potavel#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y5mfsnu3l2",
+      "Integrity": "9hVpMxAOP35ATudSi5Fv/pIMRWXlMt6wR9Z3ryHTzRE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\icons\\agua_potavel.png"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\copo_de_agua.png",
+      "SourceId": "LibrasApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/icons/copo_de_agua#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ow4dfcq2le",
+      "Integrity": "6GaVElQ177HwR6hSm/y4Oifx4FdNr0q6CuRiWTNtiUA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\icons\\copo_de_agua.png"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\escala_ph.png",
+      "SourceId": "LibrasApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/icons/escala_ph#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5gm0emlse8",
+      "Integrity": "padqq6JPaZ5QxTP9QQTYeozANJwWPsfOQuF0K2tO7YE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\icons\\escala_ph.png"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\palito_madeira.png",
+      "SourceId": "LibrasApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/icons/palito_madeira#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vqfooeee73",
+      "Integrity": "SSoVMlITPcS5w5Emn5k0Kja2HRxbNhuRWQq6ifmn3RY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\icons\\palito_madeira.png"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\pipeta_p.png",
+      "SourceId": "LibrasApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/icons/pipeta_p#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7l4mobv8z4",
+      "Integrity": "u9TTOdNYWkIlZM9eS96evSrvCr23eQWVv0BxmsFWA9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\icons\\pipeta_p.png"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\proveta.png",
+      "SourceId": "LibrasApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/icons/proveta#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nrnnt9vbiv",
+      "Integrity": "7XYKNZ7JBu/nbu7Y2bCs55wY2NmuOsYqIiVBnvzeYyc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\icons\\proveta.png"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\solucao.png",
+      "SourceId": "LibrasApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/icons/solucao#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zzizmqs1r3",
+      "Integrity": "78iMj+FhBqEtj2PZcUCd04QoCeZRpOkg7vDSeTQda8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\icons\\solucao.png"
     },
     {
       "Identity": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json",
@@ -9796,8 +9964,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "blqrxjkb7x",
-      "Integrity": "X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848=",
+      "Fingerprint": "lpfd2j3dy9",
+      "Integrity": "N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\instrumentos.json"
@@ -9817,8 +9985,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kf9qghc28s",
-      "Integrity": "QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0=",
+      "Fingerprint": "br41xyj3md",
+      "Integrity": "qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\materiais.json"
@@ -9838,8 +10006,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eojt5t6a4q",
-      "Integrity": "Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM=",
+      "Fingerprint": "tgeiku15ib",
+      "Integrity": "Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\reacoes.json"
@@ -10810,7 +10978,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6EfwKqrRUp4/tSlszNz2REngrN/hitOgk/qeJWNAZGI=\""
+          "Value": "\"X7ubtZZf05UvbQY7IvkJnyXknP8HTNq4LF1DgBoBswc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X7ubtZZf05UvbQY7IvkJnyXknP8HTNq4LF1DgBoBswc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\hwuidlt74v-jzu2ikpku5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081340491"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12293"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5haAvGJfhw2+8SMBj/gqKo67wZpE6nc/9IULrvUa9lk=\""
         },
         {
           "Name": "Last-Modified",
@@ -10819,45 +11026,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6EfwKqrRUp4/tSlszNz2REngrN/hitOgk/qeJWNAZGI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\hwuidlt74v-svnc0tn5lv.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081320647"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12296"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yg6jsNCbhdY/tlP4pBD3Zpvzrz6/JgQ+UE7onbN/+84=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:32:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10873,19 +11041,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6EfwKqrRUp4/tSlszNz2REngrN/hitOgk/qeJWNAZGI=\""
+          "Value": "W/\"X7ubtZZf05UvbQY7IvkJnyXknP8HTNq4LF1DgBoBswc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6EfwKqrRUp4/tSlszNz2REngrN/hitOgk/qeJWNAZGI="
+          "Value": "sha256-X7ubtZZf05UvbQY7IvkJnyXknP8HTNq4LF1DgBoBswc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\hwuidlt74v-svnc0tn5lv.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\hwuidlt74v-jzu2ikpku5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10894,7 +11062,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12296"
+          "Value": "12293"
         },
         {
           "Name": "Content-Type",
@@ -10902,11 +11070,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yg6jsNCbhdY/tlP4pBD3Zpvzrz6/JgQ+UE7onbN/+84=\""
+          "Value": "\"5haAvGJfhw2+8SMBj/gqKo67wZpE6nc/9IULrvUa9lk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:32:46 GMT"
+          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10924,7 +11092,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yg6jsNCbhdY/tlP4pBD3Zpvzrz6/JgQ+UE7onbN/+84="
+          "Value": "sha256-5haAvGJfhw2+8SMBj/gqKo67wZpE6nc/9IULrvUa9lk="
         }
       ]
     },
@@ -13748,168 +13916,7 @@
       ]
     },
     {
-      "Route": "_framework/LibrasApp.Client.8nepdf2nwp.pdb",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\LibrasApp.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "39540"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8nepdf2nwp"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/LibrasApp.Client.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LibrasApp.Client.8nepdf2nwp.pdb",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-8nepdf2nwp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032492852"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30775"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pfcS6DmCzF88rY26DtqLXzH2h5nJVTsuspOWx99BxXM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8nepdf2nwp"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/LibrasApp.Client.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LibrasApp.Client.8nepdf2nwp.pdb.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-8nepdf2nwp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30775"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pfcS6DmCzF88rY26DtqLXzH2h5nJVTsuspOWx99BxXM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8nepdf2nwp"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/LibrasApp.Client.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pfcS6DmCzF88rY26DtqLXzH2h5nJVTsuspOWx99BxXM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LibrasApp.Client.hyz95a7p6o.wasm",
+      "Route": "_framework/LibrasApp.Client.97yuie5qew.wasm",
       "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\LibrasApp.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13919,7 +13926,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "45845"
+          "Value": "50965"
         },
         {
           "Name": "Content-Type",
@@ -13927,11 +13934,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48=\""
+          "Value": "\"pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:45 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13941,7 +13948,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hyz95a7p6o"
+          "Value": "97yuie5qew"
         },
         {
           "Name": "label",
@@ -13949,18 +13956,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48="
+          "Value": "sha256-pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y="
         }
       ]
     },
     {
-      "Route": "_framework/LibrasApp.Client.hyz95a7p6o.wasm",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-hyz95a7p6o.gz",
+      "Route": "_framework/LibrasApp.Client.97yuie5qew.wasm",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-97yuie5qew.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000073464590"
+          "Quality": "0.000067082579"
         }
       ],
       "ResponseHeaders": [
@@ -13970,15 +13977,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13611"
+          "Value": "14906"
         },
         {
           "Name": "ETag",
-          "Value": "\"wq2KIuAaKUpQeZUmm+wfu9ByiKd4x6kQd+3HczgIyx0=\""
+          "Value": "\"pKbmI2jgxuqPtge3SnRPW5bfCMrKOY2uPap05ePQc3w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13998,13 +14005,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48=\""
+          "Value": "W/\"pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hyz95a7p6o"
+          "Value": "97yuie5qew"
         },
         {
           "Name": "label",
@@ -14012,13 +14019,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48="
+          "Value": "sha256-pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y="
         }
       ]
     },
     {
-      "Route": "_framework/LibrasApp.Client.hyz95a7p6o.wasm.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-hyz95a7p6o.gz",
+      "Route": "_framework/LibrasApp.Client.97yuie5qew.wasm.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-97yuie5qew.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14027,7 +14034,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13611"
+          "Value": "14906"
         },
         {
           "Name": "Content-Type",
@@ -14035,11 +14042,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wq2KIuAaKUpQeZUmm+wfu9ByiKd4x6kQd+3HczgIyx0=\""
+          "Value": "\"pKbmI2jgxuqPtge3SnRPW5bfCMrKOY2uPap05ePQc3w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14057,7 +14064,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hyz95a7p6o"
+          "Value": "97yuie5qew"
         },
         {
           "Name": "label",
@@ -14065,7 +14072,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wq2KIuAaKUpQeZUmm+wfu9ByiKd4x6kQd+3HczgIyx0="
+          "Value": "sha256-pKbmI2jgxuqPtge3SnRPW5bfCMrKOY2uPap05ePQc3w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LibrasApp.Client.9chgkuqval.pdb",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\bin\\Release\\net9.0\\wwwroot\\_framework\\LibrasApp.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:48:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9chgkuqval"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/LibrasApp.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LibrasApp.Client.9chgkuqval.pdb",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-9chgkuqval.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030341647"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32957"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A61hWW/Ve0z0FH/JKuqste6/EEHzLOsWs3/rbpLt5mA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9chgkuqval"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/LibrasApp.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LibrasApp.Client.9chgkuqval.pdb.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-9chgkuqval.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A61hWW/Ve0z0FH/JKuqste6/EEHzLOsWs3/rbpLt5mA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9chgkuqval"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/LibrasApp.Client.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A61hWW/Ve0z0FH/JKuqste6/EEHzLOsWs3/rbpLt5mA="
         }
       ]
     },
@@ -14080,7 +14248,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39540"
+          "Value": "42248"
         },
         {
           "Name": "Content-Type",
@@ -14088,11 +14256,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g=\""
+          "Value": "\"Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:45 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14102,18 +14270,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g="
+          "Value": "sha256-Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A="
         }
       ]
     },
     {
       "Route": "_framework/LibrasApp.Client.pdb",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-8nepdf2nwp.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-9chgkuqval.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000032492852"
+          "Quality": "0.000030341647"
         }
       ],
       "ResponseHeaders": [
@@ -14123,15 +14291,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30775"
+          "Value": "32957"
         },
         {
           "Name": "ETag",
-          "Value": "\"pfcS6DmCzF88rY26DtqLXzH2h5nJVTsuspOWx99BxXM=\""
+          "Value": "\"A61hWW/Ve0z0FH/JKuqste6/EEHzLOsWs3/rbpLt5mA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14151,19 +14319,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g=\""
+          "Value": "W/\"Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZL+obv4mjjR71p7ADgLHeYaHcsKu92fBmo5NNyijL+g="
+          "Value": "sha256-Nxil4CqRlnCG3mGXrvrbsLJMh4ee4oRN6r7XdG+lY1A="
         }
       ]
     },
     {
       "Route": "_framework/LibrasApp.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-8nepdf2nwp.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\chirrqz5b0-9chgkuqval.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14172,7 +14340,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30775"
+          "Value": "32957"
         },
         {
           "Name": "Content-Type",
@@ -14180,11 +14348,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pfcS6DmCzF88rY26DtqLXzH2h5nJVTsuspOWx99BxXM=\""
+          "Value": "\"A61hWW/Ve0z0FH/JKuqste6/EEHzLOsWs3/rbpLt5mA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14202,7 +14370,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pfcS6DmCzF88rY26DtqLXzH2h5nJVTsuspOWx99BxXM="
+          "Value": "sha256-A61hWW/Ve0z0FH/JKuqste6/EEHzLOsWs3/rbpLt5mA="
         }
       ]
     },
@@ -14217,7 +14385,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "45845"
+          "Value": "50965"
         },
         {
           "Name": "Content-Type",
@@ -14225,11 +14393,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48=\""
+          "Value": "\"pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:45 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14239,18 +14407,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48="
+          "Value": "sha256-pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y="
         }
       ]
     },
     {
       "Route": "_framework/LibrasApp.Client.wasm",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-hyz95a7p6o.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-97yuie5qew.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000073464590"
+          "Quality": "0.000067082579"
         }
       ],
       "ResponseHeaders": [
@@ -14260,15 +14428,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13611"
+          "Value": "14906"
         },
         {
           "Name": "ETag",
-          "Value": "\"wq2KIuAaKUpQeZUmm+wfu9ByiKd4x6kQd+3HczgIyx0=\""
+          "Value": "\"pKbmI2jgxuqPtge3SnRPW5bfCMrKOY2uPap05ePQc3w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14288,19 +14456,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48=\""
+          "Value": "W/\"pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-t6R6k3fYG3z0WJeqsAGLnDBr/+W1Gq9qdUod1VkmY48="
+          "Value": "sha256-pSKErc997rQAAW8GKt7Vr1oAgIuJNi1tDWrcQkxPw5Y="
         }
       ]
     },
     {
       "Route": "_framework/LibrasApp.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-hyz95a7p6o.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\p3b3hdlg28-97yuie5qew.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14309,7 +14477,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13611"
+          "Value": "14906"
         },
         {
           "Name": "Content-Type",
@@ -14317,11 +14485,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wq2KIuAaKUpQeZUmm+wfu9ByiKd4x6kQd+3HczgIyx0=\""
+          "Value": "\"pKbmI2jgxuqPtge3SnRPW5bfCMrKOY2uPap05ePQc3w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 03:39:46 GMT"
+          "Value": "Mon, 09 Jun 2025 04:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14339,7 +14507,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wq2KIuAaKUpQeZUmm+wfu9ByiKd4x6kQd+3HczgIyx0="
+          "Value": "sha256-pKbmI2jgxuqPtge3SnRPW5bfCMrKOY2uPap05ePQc3w="
         }
       ]
     },
@@ -71642,13 +71810,13 @@
       ]
     },
     {
-      "Route": "data/epis.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-lh16sbxhvp.gz",
+      "Route": "data/epis.ivflkveiwk.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-ivflkveiwk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005291005291"
+          "Quality": "0.003558718861"
         }
       ],
       "ResponseHeaders": [
@@ -71658,19 +71826,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "188"
+          "Value": "280"
         },
         {
           "Name": "ETag",
-          "Value": "\"PiYZJdO+VWx6C+qnaznTvhz6/Ingie4uHqLddmm9fs4=\""
+          "Value": "\"EpwnT5hAt7ASPzLnn9MdXJpiDlF74eC7XXamAXoIBhY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:04:41 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -71686,18 +71854,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo=\""
+          "Value": "W/\"nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "ivflkveiwk"
+        },
+        {
+          "Name": "label",
+          "Value": "data/epis.json"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo="
+          "Value": "sha256-nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c="
         }
       ]
     },
     {
-      "Route": "data/epis.json",
+      "Route": "data/epis.ivflkveiwk.json",
       "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\epis.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71707,7 +71883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "423"
+          "Value": "671"
         },
         {
           "Name": "Content-Type",
@@ -71715,121 +71891,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo=\""
+          "Value": "\"nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo="
-        }
-      ]
-    },
-    {
-      "Route": "data/epis.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-lh16sbxhvp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "188"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PiYZJdO+VWx6C+qnaznTvhz6/Ingie4uHqLddmm9fs4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PiYZJdO+VWx6C+qnaznTvhz6/Ingie4uHqLddmm9fs4="
-        }
-      ]
-    },
-    {
-      "Route": "data/epis.lh16sbxhvp.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-lh16sbxhvp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.005291005291"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "188"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PiYZJdO+VWx6C+qnaznTvhz6/Ingie4uHqLddmm9fs4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:04:41 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lh16sbxhvp"
+          "Value": "ivflkveiwk"
         },
         {
           "Name": "label",
@@ -71837,13 +71913,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo="
+          "Value": "sha256-nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c="
         }
       ]
     },
     {
-      "Route": "data/epis.lh16sbxhvp.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\epis.json",
+      "Route": "data/epis.ivflkveiwk.json.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-ivflkveiwk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71852,7 +71928,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "423"
+          "Value": "280"
         },
         {
           "Name": "Content-Type",
@@ -71860,56 +71936,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo=\""
+          "Value": "\"EpwnT5hAt7ASPzLnn9MdXJpiDlF74eC7XXamAXoIBhY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lh16sbxhvp"
-        },
-        {
-          "Name": "label",
-          "Value": "data/epis.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CUX9MWM4ShsziU4CppHOEn01YyPPA7YoyUE53716RPo="
-        }
-      ]
-    },
-    {
-      "Route": "data/epis.lh16sbxhvp.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-lh16sbxhvp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "188"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PiYZJdO+VWx6C+qnaznTvhz6/Ingie4uHqLddmm9fs4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:04:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71927,7 +71958,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lh16sbxhvp"
+          "Value": "ivflkveiwk"
         },
         {
           "Name": "label",
@@ -71935,18 +71966,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PiYZJdO+VWx6C+qnaznTvhz6/Ingie4uHqLddmm9fs4="
+          "Value": "sha256-EpwnT5hAt7ASPzLnn9MdXJpiDlF74eC7XXamAXoIBhY="
         }
       ]
     },
     {
-      "Route": "data/instrumentos.blqrxjkb7x.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-blqrxjkb7x.gz",
+      "Route": "data/epis.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-ivflkveiwk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004784688995"
+          "Quality": "0.003558718861"
         }
       ],
       "ResponseHeaders": [
@@ -71956,19 +71987,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "208"
+          "Value": "280"
         },
         {
           "Name": "ETag",
-          "Value": "\"Mb4O3kEF/2jkANX8VEnmExfeads3+cjDKzp8C4TsSUw=\""
+          "Value": "\"EpwnT5hAt7ASPzLnn9MdXJpiDlF74eC7XXamAXoIBhY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:04:41 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -71984,26 +72015,811 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848=\""
+          "Value": "W/\"nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c="
+        }
+      ]
+    },
+    {
+      "Route": "data/epis.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\epis.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:04:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nhONvvt04pt8h6EFj43imQs3DKXmO3mlfpiOOR7ow0c="
+        }
+      ]
+    },
+    {
+      "Route": "data/epis.json.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\gvd1qxkv07-ivflkveiwk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EpwnT5hAt7ASPzLnn9MdXJpiDlF74eC7XXamAXoIBhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:04:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EpwnT5hAt7ASPzLnn9MdXJpiDlF74eC7XXamAXoIBhY="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/acido_acetico.bfmh0j1n58.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\acido_acetico.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x4cChAjQFHdqiavZcnCKYNH8sP924QkSHlnMJ6Rj2bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:46:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "blqrxjkb7x"
+          "Value": "bfmh0j1n58"
         },
         {
           "Name": "label",
-          "Value": "data/instrumentos.json"
+          "Value": "data/icons/acido_acetico.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848="
+          "Value": "sha256-x4cChAjQFHdqiavZcnCKYNH8sP924QkSHlnMJ6Rj2bw="
         }
       ]
     },
     {
-      "Route": "data/instrumentos.blqrxjkb7x.json",
+      "Route": "data/icons/acido_acetico.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\acido_acetico.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x4cChAjQFHdqiavZcnCKYNH8sP924QkSHlnMJ6Rj2bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:46:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x4cChAjQFHdqiavZcnCKYNH8sP924QkSHlnMJ6Rj2bw="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/agua_potavel.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\agua_potavel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9hVpMxAOP35ATudSi5Fv/pIMRWXlMt6wR9Z3ryHTzRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:37:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9hVpMxAOP35ATudSi5Fv/pIMRWXlMt6wR9Z3ryHTzRE="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/agua_potavel.y5mfsnu3l2.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\agua_potavel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9hVpMxAOP35ATudSi5Fv/pIMRWXlMt6wR9Z3ryHTzRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:37:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5mfsnu3l2"
+        },
+        {
+          "Name": "label",
+          "Value": "data/icons/agua_potavel.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9hVpMxAOP35ATudSi5Fv/pIMRWXlMt6wR9Z3ryHTzRE="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/copo_de_agua.ow4dfcq2le.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\copo_de_agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6GaVElQ177HwR6hSm/y4Oifx4FdNr0q6CuRiWTNtiUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 03:54:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ow4dfcq2le"
+        },
+        {
+          "Name": "label",
+          "Value": "data/icons/copo_de_agua.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6GaVElQ177HwR6hSm/y4Oifx4FdNr0q6CuRiWTNtiUA="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/copo_de_agua.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\copo_de_agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6GaVElQ177HwR6hSm/y4Oifx4FdNr0q6CuRiWTNtiUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 03:54:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6GaVElQ177HwR6hSm/y4Oifx4FdNr0q6CuRiWTNtiUA="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/escala_ph.5gm0emlse8.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\escala_ph.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"padqq6JPaZ5QxTP9QQTYeozANJwWPsfOQuF0K2tO7YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:15:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5gm0emlse8"
+        },
+        {
+          "Name": "label",
+          "Value": "data/icons/escala_ph.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-padqq6JPaZ5QxTP9QQTYeozANJwWPsfOQuF0K2tO7YE="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/escala_ph.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\escala_ph.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"padqq6JPaZ5QxTP9QQTYeozANJwWPsfOQuF0K2tO7YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:15:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-padqq6JPaZ5QxTP9QQTYeozANJwWPsfOQuF0K2tO7YE="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/palito_madeira.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\palito_madeira.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SSoVMlITPcS5w5Emn5k0Kja2HRxbNhuRWQq6ifmn3RY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:12:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SSoVMlITPcS5w5Emn5k0Kja2HRxbNhuRWQq6ifmn3RY="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/palito_madeira.vqfooeee73.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\palito_madeira.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SSoVMlITPcS5w5Emn5k0Kja2HRxbNhuRWQq6ifmn3RY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:12:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vqfooeee73"
+        },
+        {
+          "Name": "label",
+          "Value": "data/icons/palito_madeira.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SSoVMlITPcS5w5Emn5k0Kja2HRxbNhuRWQq6ifmn3RY="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/pipeta_p.7l4mobv8z4.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\pipeta_p.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9TTOdNYWkIlZM9eS96evSrvCr23eQWVv0BxmsFWA9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:14:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7l4mobv8z4"
+        },
+        {
+          "Name": "label",
+          "Value": "data/icons/pipeta_p.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9TTOdNYWkIlZM9eS96evSrvCr23eQWVv0BxmsFWA9Q="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/pipeta_p.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\pipeta_p.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9TTOdNYWkIlZM9eS96evSrvCr23eQWVv0BxmsFWA9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:14:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9TTOdNYWkIlZM9eS96evSrvCr23eQWVv0BxmsFWA9Q="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/proveta.nrnnt9vbiv.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\proveta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7XYKNZ7JBu/nbu7Y2bCs55wY2NmuOsYqIiVBnvzeYyc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:13:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nrnnt9vbiv"
+        },
+        {
+          "Name": "label",
+          "Value": "data/icons/proveta.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7XYKNZ7JBu/nbu7Y2bCs55wY2NmuOsYqIiVBnvzeYyc="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/proveta.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\proveta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7XYKNZ7JBu/nbu7Y2bCs55wY2NmuOsYqIiVBnvzeYyc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:13:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7XYKNZ7JBu/nbu7Y2bCs55wY2NmuOsYqIiVBnvzeYyc="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/solucao.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\solucao.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"78iMj+FhBqEtj2PZcUCd04QoCeZRpOkg7vDSeTQda8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:44:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-78iMj+FhBqEtj2PZcUCd04QoCeZRpOkg7vDSeTQda8I="
+        }
+      ]
+    },
+    {
+      "Route": "data/icons/solucao.zzizmqs1r3.png",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\solucao.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"78iMj+FhBqEtj2PZcUCd04QoCeZRpOkg7vDSeTQda8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:44:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zzizmqs1r3"
+        },
+        {
+          "Name": "label",
+          "Value": "data/icons/solucao.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-78iMj+FhBqEtj2PZcUCd04QoCeZRpOkg7vDSeTQda8I="
+        }
+      ]
+    },
+    {
+      "Route": "data/instrumentos.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-lpfd2j3dy9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002849002849"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p4hWv9cYhkOoUO0ooJIU36gAPe5j4L6It0xM7TPY0Tk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:10:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4="
+        }
+      ]
+    },
+    {
+      "Route": "data/instrumentos.json",
       "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72013,7 +72829,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "429"
+          "Value": "969"
         },
         {
           "Name": "Content-Type",
@@ -72021,11 +72837,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848=\""
+          "Value": "\"N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:10:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4="
+        }
+      ]
+    },
+    {
+      "Route": "data/instrumentos.json.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-lpfd2j3dy9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p4hWv9cYhkOoUO0ooJIU36gAPe5j4L6It0xM7TPY0Tk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:10:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p4hWv9cYhkOoUO0ooJIU36gAPe5j4L6It0xM7TPY0Tk="
+        }
+      ]
+    },
+    {
+      "Route": "data/instrumentos.lpfd2j3dy9.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-lpfd2j3dy9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002849002849"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p4hWv9cYhkOoUO0ooJIU36gAPe5j4L6It0xM7TPY0Tk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:10:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lpfd2j3dy9"
+        },
+        {
+          "Name": "label",
+          "Value": "data/instrumentos.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4="
+        }
+      ]
+    },
+    {
+      "Route": "data/instrumentos.lpfd2j3dy9.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72035,7 +72996,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "blqrxjkb7x"
+          "Value": "lpfd2j3dy9"
         },
         {
           "Name": "label",
@@ -72043,13 +73004,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848="
+          "Value": "sha256-N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4="
         }
       ]
     },
     {
-      "Route": "data/instrumentos.blqrxjkb7x.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-blqrxjkb7x.gz",
+      "Route": "data/instrumentos.lpfd2j3dy9.json.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-lpfd2j3dy9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72058,7 +73019,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "208"
+          "Value": "350"
         },
         {
           "Name": "Content-Type",
@@ -72066,11 +73027,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Mb4O3kEF/2jkANX8VEnmExfeads3+cjDKzp8C4TsSUw=\""
+          "Value": "\"p4hWv9cYhkOoUO0ooJIU36gAPe5j4L6It0xM7TPY0Tk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72088,7 +73049,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "blqrxjkb7x"
+          "Value": "lpfd2j3dy9"
         },
         {
           "Name": "label",
@@ -72096,18 +73057,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Mb4O3kEF/2jkANX8VEnmExfeads3+cjDKzp8C4TsSUw="
+          "Value": "sha256-p4hWv9cYhkOoUO0ooJIU36gAPe5j4L6It0xM7TPY0Tk="
         }
       ]
     },
     {
-      "Route": "data/instrumentos.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-blqrxjkb7x.gz",
+      "Route": "data/materiais.br41xyj3md.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-br41xyj3md.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004784688995"
+          "Quality": "0.002717391304"
         }
       ],
       "ResponseHeaders": [
@@ -72117,19 +73078,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "208"
+          "Value": "367"
         },
         {
           "Name": "ETag",
-          "Value": "\"Mb4O3kEF/2jkANX8VEnmExfeads3+cjDKzp8C4TsSUw=\""
+          "Value": "\"Vv1q0cWSu8ukIs40WU1K2TjLjEkq/8cyrw5ZLLLy4KQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:47:35 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -72145,155 +73106,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848=\""
+          "Value": "W/\"qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "br41xyj3md"
+        },
+        {
+          "Name": "label",
+          "Value": "data/materiais.json"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848="
+          "Value": "sha256-qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk="
         }
       ]
     },
     {
-      "Route": "data/instrumentos.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "429"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-X6xwV1OFBPAbSy7OEStVn2enj5mB39jZAveOPE39848="
-        }
-      ]
-    },
-    {
-      "Route": "data/instrumentos.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\7977th8pxm-blqrxjkb7x.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "208"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Mb4O3kEF/2jkANX8VEnmExfeads3+cjDKzp8C4TsSUw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Mb4O3kEF/2jkANX8VEnmExfeads3+cjDKzp8C4TsSUw="
-        }
-      ]
-    },
-    {
-      "Route": "data/materiais.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-kf9qghc28s.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.004098360656"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "243"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"okk6Vi8wrzS0rSIV6Fj72c6j0V7WL0DAKSCChIqVrgs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0="
-        }
-      ]
-    },
-    {
-      "Route": "data/materiais.json",
+      "Route": "data/materiais.br41xyj3md.json",
       "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\materiais.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72303,7 +73135,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "455"
+          "Value": "902"
         },
         {
           "Name": "Content-Type",
@@ -72311,121 +73143,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0=\""
+          "Value": "\"qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0="
-        }
-      ]
-    },
-    {
-      "Route": "data/materiais.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-kf9qghc28s.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "243"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"okk6Vi8wrzS0rSIV6Fj72c6j0V7WL0DAKSCChIqVrgs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-okk6Vi8wrzS0rSIV6Fj72c6j0V7WL0DAKSCChIqVrgs="
-        }
-      ]
-    },
-    {
-      "Route": "data/materiais.kf9qghc28s.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-kf9qghc28s.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.004098360656"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "243"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"okk6Vi8wrzS0rSIV6Fj72c6j0V7WL0DAKSCChIqVrgs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:47:35 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kf9qghc28s"
+          "Value": "br41xyj3md"
         },
         {
           "Name": "label",
@@ -72433,13 +73165,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0="
+          "Value": "sha256-qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk="
         }
       ]
     },
     {
-      "Route": "data/materiais.kf9qghc28s.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\materiais.json",
+      "Route": "data/materiais.br41xyj3md.json.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-br41xyj3md.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72448,7 +73180,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "455"
+          "Value": "367"
         },
         {
           "Name": "Content-Type",
@@ -72456,56 +73188,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0=\""
+          "Value": "\"Vv1q0cWSu8ukIs40WU1K2TjLjEkq/8cyrw5ZLLLy4KQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kf9qghc28s"
-        },
-        {
-          "Name": "label",
-          "Value": "data/materiais.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QObqgl5EE00ZnXo7oto2PhAN3+29u0kwJLEPb7HPKM0="
-        }
-      ]
-    },
-    {
-      "Route": "data/materiais.kf9qghc28s.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-kf9qghc28s.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "243"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"okk6Vi8wrzS0rSIV6Fj72c6j0V7WL0DAKSCChIqVrgs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:47:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72523,7 +73210,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kf9qghc28s"
+          "Value": "br41xyj3md"
         },
         {
           "Name": "label",
@@ -72531,18 +73218,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-okk6Vi8wrzS0rSIV6Fj72c6j0V7WL0DAKSCChIqVrgs="
+          "Value": "sha256-Vv1q0cWSu8ukIs40WU1K2TjLjEkq/8cyrw5ZLLLy4KQ="
         }
       ]
     },
     {
-      "Route": "data/reacoes.eojt5t6a4q.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-eojt5t6a4q.gz",
+      "Route": "data/materiais.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-br41xyj3md.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002403846154"
+          "Quality": "0.002717391304"
         }
       ],
       "ResponseHeaders": [
@@ -72552,19 +73239,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "415"
+          "Value": "367"
         },
         {
           "Name": "ETag",
-          "Value": "\"cck8zkoJLo1Xpf4NHWBZojHfM4s5NCzlAEE222pDK+4=\""
+          "Value": "\"Vv1q0cWSu8ukIs40WU1K2TjLjEkq/8cyrw5ZLLLy4KQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 04:47:35 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -72580,26 +73267,155 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM=\""
+          "Value": "W/\"qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "eojt5t6a4q"
-        },
-        {
-          "Name": "label",
-          "Value": "data/reacoes.json"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM="
+          "Value": "sha256-qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk="
         }
       ]
     },
     {
-      "Route": "data/reacoes.eojt5t6a4q.json",
+      "Route": "data/materiais.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\materiais.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:47:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qbiU+W1VoX+x79NZb7R0jBQhS29lzNTSfvYvMnPdFbk="
+        }
+      ]
+    },
+    {
+      "Route": "data/materiais.json.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\ifgf2dh4fy-br41xyj3md.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vv1q0cWSu8ukIs40WU1K2TjLjEkq/8cyrw5ZLLLy4KQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 04:47:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vv1q0cWSu8ukIs40WU1K2TjLjEkq/8cyrw5ZLLLy4KQ="
+        }
+      ]
+    },
+    {
+      "Route": "data/reacoes.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-tgeiku15ib.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001721170396"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UaG90HwD8v+MY0UexnsJlBhqYg6/xV7zVDWwittEajw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 03:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A="
+        }
+      ]
+    },
+    {
+      "Route": "data/reacoes.json",
       "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\reacoes.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72609,7 +73425,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1686"
+          "Value": "2035"
         },
         {
           "Name": "Content-Type",
@@ -72617,11 +73433,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM=\""
+          "Value": "\"Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 03:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A="
+        }
+      ]
+    },
+    {
+      "Route": "data/reacoes.json.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-tgeiku15ib.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UaG90HwD8v+MY0UexnsJlBhqYg6/xV7zVDWwittEajw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 03:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UaG90HwD8v+MY0UexnsJlBhqYg6/xV7zVDWwittEajw="
+        }
+      ]
+    },
+    {
+      "Route": "data/reacoes.tgeiku15ib.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-tgeiku15ib.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001721170396"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UaG90HwD8v+MY0UexnsJlBhqYg6/xV7zVDWwittEajw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 03:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tgeiku15ib"
+        },
+        {
+          "Name": "label",
+          "Value": "data/reacoes.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A="
+        }
+      ]
+    },
+    {
+      "Route": "data/reacoes.tgeiku15ib.json",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\reacoes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 03:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72631,7 +73592,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eojt5t6a4q"
+          "Value": "tgeiku15ib"
         },
         {
           "Name": "label",
@@ -72639,13 +73600,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM="
+          "Value": "sha256-Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A="
         }
       ]
     },
     {
-      "Route": "data/reacoes.eojt5t6a4q.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-eojt5t6a4q.gz",
+      "Route": "data/reacoes.tgeiku15ib.json.gz",
+      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-tgeiku15ib.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72654,7 +73615,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "415"
+          "Value": "580"
         },
         {
           "Name": "Content-Type",
@@ -72662,11 +73623,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cck8zkoJLo1Xpf4NHWBZojHfM4s5NCzlAEE222pDK+4=\""
+          "Value": "\"UaG90HwD8v+MY0UexnsJlBhqYg6/xV7zVDWwittEajw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 03:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72684,7 +73645,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eojt5t6a4q"
+          "Value": "tgeiku15ib"
         },
         {
           "Name": "label",
@@ -72692,144 +73653,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cck8zkoJLo1Xpf4NHWBZojHfM4s5NCzlAEE222pDK+4="
-        }
-      ]
-    },
-    {
-      "Route": "data/reacoes.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-eojt5t6a4q.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002403846154"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "415"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cck8zkoJLo1Xpf4NHWBZojHfM4s5NCzlAEE222pDK+4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM="
-        }
-      ]
-    },
-    {
-      "Route": "data/reacoes.json",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\reacoes.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1686"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Il4h379bMQmpIJ/PyUOfeTinL3XYtV9RgMClQQhKmfM="
-        }
-      ]
-    },
-    {
-      "Route": "data/reacoes.json.gz",
-      "AssetFile": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\obj\\Release\\net9.0\\compressed\\3etk4dokre-eojt5t6a4q.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "415"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cck8zkoJLo1Xpf4NHWBZojHfM4s5NCzlAEE222pDK+4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cck8zkoJLo1Xpf4NHWBZojHfM4s5NCzlAEE222pDK+4="
+          "Value": "sha256-UaG90HwD8v+MY0UexnsJlBhqYg6/xV7zVDWwittEajw="
         }
       ]
     },
@@ -72858,7 +73682,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 03:52:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72911,7 +73735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 03:52:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72948,7 +73772,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 03:52:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72995,7 +73819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 03:52:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73056,7 +73880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 03:52:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73101,7 +73925,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 01:19:13 GMT"
+          "Value": "Mon, 09 Jun 2025 03:52:50 GMT"
         },
         {
           "Name": "Cache-Control",
