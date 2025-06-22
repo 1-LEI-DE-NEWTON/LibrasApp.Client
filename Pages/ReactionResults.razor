@@ -67,29 +67,41 @@
     protected override async Task OnInitializedAsync()
     {
         var json = await Http.GetStringAsync("data/resultados.json");
-        var doc = JsonDocument.Parse(json);
-        var root = doc.RootElement;
-        _result = new ResultData
+        var arr = JsonDocument.Parse(json).RootElement;
+        JsonElement? found = null;
+        foreach (var el in arr.EnumerateArray())
         {
-            reactionName = root.GetProperty("reactionName").GetString(),
-            results = new List<ResultItem>()
-        };
-        if (root.TryGetProperty("results", out var resultsArr))
-        {
-            foreach (var item in resultsArr.EnumerateArray())
+            if (el.TryGetProperty("reactionName", out var rn) && rn.GetString() == reactionName)
             {
-                string? img = null;
-                if (item.TryGetProperty("imageUrl", out var imgProp))
-                    img = imgProp.GetString();
-                else if (item.TryGetProperty("ImageUrl", out var imgProp2))
-                    img = imgProp2.GetString();
-                var resultItem = new ResultItem
+                found = el;
+                break;
+            }
+        }
+        if (found != null)
+        {
+            var el = found.Value;
+            _result = new ResultData
+            {
+                reactionName = el.GetProperty("reactionName").GetString(),
+                results = new List<ResultItem>()
+            };
+            if (el.TryGetProperty("results", out var resultsArr))
+            {
+                foreach (var item in resultsArr.EnumerateArray())
                 {
-                    paragraphs = item.TryGetProperty("paragraphs", out var p) ? p.EnumerateArray().Select(x => x.GetString() ?? "").ToList() : null,
-                    List = item.TryGetProperty("List", out var l) ? l.EnumerateArray().Select(x => x.GetString() ?? "").ToList() : null,
-                    imageUrl = img
-                };
-                _result.results.Add(resultItem);
+                    string? img = null;
+                    if (item.TryGetProperty("imageUrl", out var imgProp))
+                        img = imgProp.GetString();
+                    else if (item.TryGetProperty("ImageUrl", out var imgProp2))
+                        img = imgProp2.GetString();
+                    var resultItem = new ResultItem
+                    {
+                        paragraphs = item.TryGetProperty("paragraphs", out var p) ? p.EnumerateArray().Select(x => x.GetString() ?? "").ToList() : null,
+                        List = item.TryGetProperty("List", out var l) ? l.EnumerateArray().Select(x => x.GetString() ?? "").ToList() : null,
+                        imageUrl = img
+                    };
+                    _result.results.Add(resultItem);
+                }
             }
         }
     }

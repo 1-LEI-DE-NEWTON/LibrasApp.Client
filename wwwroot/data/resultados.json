@@ -1,36 +1,74 @@
-{
-"reactionName": "Reação Ácido-Base 1",
-    "results": 
-    [
-        {              
-        "paragraphs": [
-            "Quando você misturar o vinagre (ácido) com o bicarbonato de sódio (base), deverá observar:"                
-        ],
-        "List": [
-            "Mudança na cor da solução, do vermelho (ácido) para o roxo (neutro) e depois para o verde (básico), graças ao indicador natural de repolho roxo.",
-            "Formação de bolhas, que são gás carbônico (CO₂) sendo liberado durante a reação"        
-        ]        
-        },
-        {        
-        "paragraphs": [
-            "A reação química que acontece é a seguinte:",
-            "CH3COOH + NaHCO3 → CH3COONa + H2O + CO2↑",            
-            "Ou seja, o ácido acético (vinagre) reage com o bicarbonato de sódio, formando acetato de sódio, água e gás carbônico."
+[
+    {
+        "reactionName": "Reação Ácido-Base 1",
+        "results": [
+            {
+                "paragraphs": [
+                    "Quando você misturar o vinagre (ácido) com o bicarbonato de sódio (base), deverá observar:"
+                ],
+                "List": [
+                    "Mudança na cor da solução, do vermelho (ácido) para o roxo (neutro) e depois para o verde (básico), graças ao indicador natural de repolho roxo.",
+                    "Formação de bolhas, que são gás carbônico (CO₂) sendo liberado durante a reação"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "A reação química que acontece é a seguinte:",
+                    "CH3COOH + NaHCO3 → CH3COONa + H2O + CO2↑",
+                    "Ou seja, o ácido acético (vinagre) reage com o bicarbonato de sódio, formando acetato de sódio, água e gás carbônico."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "O que você deve observar é algo parecido com esta imagem:"
+                ],
+                "ImageUrl": "data/imgs/resultado_reacao1.jpg"
+            },
+            {
+                "paragraphs": [
+                    "Essa experiência é uma ótima maneira de entender como os ácidos e bases interagem entre si e como podemos usar indicadores naturais para visualizar essas mudanças.",
+                    "Agora, vamos seguir para a Parte 2: Escala de PH com Indicador de Repolho Roxo.",
+                    "Nela, você aprenderá a medir o pH de diferentes soluções usando o mesmo indicador natural.",
+                    "Isso ajudará a entender melhor o conceito de pH e como ele se relaciona com a acidez e basicidade das substâncias."
+                ]
+            }
         ]
-        },
-        {
-        "paragraphs": [
-            "O que você deve observar é algo parecido com esta imagem:"
-        ],
-        "ImageUrl": "data/imgs/resultado_reacao1.jpg"
-        },
-        {
-        "paragraphs": [            
-            "Essa experiência é uma ótima maneira de entender como os ácidos e bases interagem entre si e como podemos usar indicadores naturais para visualizar essas mudanças.",
-            "Agora, vamos seguir para a Parte 2: Escala de PH com Indicador de Repolho Roxo.",
-            "Nela, você aprenderá a medir o pH de diferentes soluções usando o mesmo indicador natural.",
-            "Isso ajudará a entender melhor o conceito de pH e como ele se relaciona com a acidez e basicidade das substâncias."
+    },
+    {
+        "reactionName": "Escala de PH com Indicador de Repolho Roxo",
+        "results": [
+            {
+                "paragraphs": [
+                    "Você preparou um indicador de pH natural utilizando o extrato de repolho roxo.",
+                    "Esse indicador muda de cor conforme o pH da solução, permitindo identificar facilmente se uma substância é ácida, neutra ou básica."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Ao adicionar o indicador de repolho roxo nas diferentes soluções, você verá cores diferentes que indicam o pH de cada uma:"
+                ],
+                "List": [
+                    "Soluções ácidas (como suco de limão, vinagre) ficarão avermelhadas ou rosadas.",
+                    "Solução neutra (água potável) ficará roxa.",
+                    "Soluções básicas (bicarbonato, sabão em pó, água sanitária) ficarão verdes ou azuladas."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Essas mudanças confirmam que o repolho roxo é um indicador natural que mostra o pH das soluções."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Veja um exemplo visual das cores do indicador de repolho roxo em diferentes pHs:"
+                ],
+                "ImageUrl": "data/imgs/indicador_repolho.png"
+            },
+            {
+                "paragraphs": [
+                    "Esse experimento mostra como é possível usar materiais simples do dia a dia para explorar conceitos importantes de química de forma prática e divertida!"
+                ]
+            }
         ]
-        }        
-    ]
-}
+    }
+]
