@@ -11,7 +11,7 @@
     }
     else
     {
-        <h1 class="results-title">Resultados Esperados da Reação Ácido-Base</h1>
+        <h1 class="results-title">@GetResultsTitle()</h1>
         <div class="result-text">
             @if (_result.results != null && _result.results.Count > 0)
             {
@@ -121,6 +121,15 @@
             _currentIndex++;
         else
             NavigationManager.NavigateTo("/reaction-materials/Escala de PH com Indicador de Repolho Roxo");
+    }
+
+    private string GetResultsTitle()
+    {
+        if (reactionName == "Reação Ácido-Base 1")
+            return "Reação Ácido-Base";
+        if (!string.IsNullOrWhiteSpace(reactionName))
+            return reactionName;
+        return "Resultados Esperados";
     }
 }
 

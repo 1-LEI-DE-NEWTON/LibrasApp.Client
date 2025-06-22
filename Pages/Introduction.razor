@@ -26,8 +26,8 @@
         }
     </div>
     <div class="intro-controls">
-        <button class="intro-btn" @onclick="() => PreviousPart()">Voltar</button>
-        <button class="intro-btn" @onclick="() => NextPart()">@(currentPart == introParts.Count - 1 ? "Instrumentos Necessários" : "Próximo")</button>
+        <button class="back-btn" @onclick="() => PreviousPart()">Voltar</button>
+        <button class="next-btn" @onclick="() => NextPart()">@(currentPart == introParts.Count - 1 ? "Instrumentos Necessários" : "Próximo")</button>
     </div>
 </div>
 
@@ -113,26 +113,32 @@
     display: flex;
     justify-content: space-between;
 }
-.intro-btn {
-    background: #3b82f6;
-    color: #fff;
+.back-btn {
+    background: #c9e0f2;
+    color: #222;
     border: none;
-    border-radius: 12px;
+    border-radius: 18px;
     padding: 0.7rem 2.2rem;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.1rem;
     cursor: pointer;
     transition: background 0.2s;
-    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
 }
-.intro-btn:hover {
+.back-btn:hover {
+    background: #b0cbe0;
+}
+.next-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.next-btn:hover {
     background: #2563eb;
-}
-.intro-btn:disabled {
-    background: #b0b0b0;
-    cursor: not-allowed;
-}
-.intro-btn:not(:disabled):hover {
-    background: #1565c0;
 }
 </style>

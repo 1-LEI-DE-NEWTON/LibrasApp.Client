@@ -462,8 +462,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>89r16ps8rx</Fingerprint>
-      <Integrity>PMq7Ce7FZ0Ntu32QtnxV6/sfsz+ChAelPCZkEiD3CmY=</Integrity>
+      <Fingerprint>fwvozw8g18</Fingerprint>
+      <Integrity>gUVLSZlHcmu2Jwxb2CFHl/rkTWfUQ025XDz5ceXM7+8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\resultados.json'))</OriginalItemSpec>
