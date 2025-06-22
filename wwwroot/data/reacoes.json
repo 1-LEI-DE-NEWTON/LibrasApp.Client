@@ -2,48 +2,51 @@
   "reactions": [
     {
       "name": "Reação Ácido-Base 1",
-      "description": "Esta é uma reação simples entre um ácido e uma base.",
+      "description": "Esta reação demonstra a neutralização entre um ácido (vinagre) e uma base (bicarbonato de sódio), formando água, gás carbônico e um sal.",
       "steps": [
         {
           "step": 1,
-          "libra": "Em um copo transparente de 200mL, adicione:\n 50 ml de Vinagre Branco, e 50 mL do Indicador de repolho roxo. Após, observe a mudança de coloração.",
-          "portuguese": "Em um copo transparente de 200mL, adicione:\n 50 ml de Vinagre Branco, e 50 mL do Indicador de repolho roxo. Após, observe a mudança de coloração."
+          "title": "Prepare a solução de bicarbonato:",
+          "paragraphs": [
+            "Em um copo medidor, meça 50 ml de água potável e coloque em um copo de plástico transparente.",
+            "Adicione 2 colheres de bicarbonato de sódio e misture com um palito de madeira até dissolver bem."
+          ]
         },
         {
           "step": 2,
-          "libra": "Em um copo de plástico transparente de 100 mL, adicione:\n50 mL (aproximadamente a metade do copo) de uma solução de Bicarbonato de sódio (NaHCO3) 1,0 mol/L com auxílio de uma pipeta de Pasteur.",
-          "portuguese": "Adicione 50 ml de hidróxido de sódio ao béquer."
+          "title": "Prepare a solução de vinagre",
+          "paragraphs": [
+            "Em outro copo de plástico, coloque 50 ml de vinagre branco.",
+            "Pingue devagar com uma Pipeta de Pasteur algumas gotas do indicador de repolho roxo no vinagre até que ele fique com uma cor avermelhada. Isso indica que o meio é ácido."
+          ]
         },
         {
           "step": 3,
-          "libra": "Misture bem a solução com uma vara de vidro.",
-          "portuguese": "Misture bem a solução com uma vara de vidro."
+          "title": "A hora da mágica",
+          "paragraphs": [
+            "Com a Pipeta de Pasteur, pegue a solução de bicarbonato de sódio",
+            "Adicione, aos poucos, no copo que tem o vinagre com indicador."            
+          ]
         },
         {
           "step": 4,
-          "libra": "Observe a mudança de cor da solução.",
-          "portuguese": "Observe a mudança de cor da solução."
-        }
-      ]
-    },
-    {
-      "name": "Reação Ácido-Base 2",
-      "description": "Esta é uma reação entre ácido acético e bicarbonato de sódio.",
-      "steps": [
-        {
-          "step": 1,
-          "libra": "Adicione 30 ml de ácido acético a um béquer.",
-          "portuguese": "Adicione 30 ml de ácido acético a um béquer."
+          "title": "Observe a mudança!",
+          "paragraphs": [
+            "Veja como a cor da solução muda de vermelho para roxo e, se você continuar adicionando bicarbonato, para verde.",
+            "Isso acontece porque o bicarbonato de sódio é uma base que neutraliza o ácido do vinagre, formando água, gás carbônico (que faz borbulhas) e um sal.",
+            "A mudança de cor indica que o pH da solução está se tornando mais neutro."            
+          ]
         },
         {
-          "step": 2,
-          "libra": "Adicione uma colher de chá de bicarbonato de sódio.",
-          "portuguese": "Adicione uma colher de chá de bicarbonato de sódio."
-        },
-        {
-          "step": 3,
-          "libra": "Observe a efervescência que ocorre.",
-          "portuguese": "Observe a efervescência que ocorre."
+          "step": 5,
+          "title": "Conclusão",
+          "paragraphs": [
+            "Você acabou de realizar uma reação ácido-base!",
+            "Esse tipo de reação é muito comum no nosso dia a dia e tem diversas aplicações.",
+            "Por exemplo, ela é usada no tratamento de água, na produção de alimentos e até em medicamentos.",
+            "Além disso, o indicador de repolho roxo é uma maneira divertida e natural de visualizar mudanças de pH.",
+            "Agora você sabe como os ácidos e bases reagem entre si e como podemos usar indicadores naturais para observar essas reações!"            
+          ]
         }
       ]
     }

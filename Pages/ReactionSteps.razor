@@ -5,63 +5,104 @@
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
 
-<h3>Instruções para a Reação: @reaction?.Name</h3>
-
-@if (reaction != null)
-{
-    <div>
-        <h4>Descrição:</h4>
-        <p>@reaction.Description</p>
-
-        <h4>Passos:</h4>
-        <ol>
-            @foreach (var step in reaction.Steps ?? new List<ReactionStep>())
+<div class="steps-container">
+    @if (_reaction == null)
+    {
+        <p><em>Carregando passos da reação...</em></p>
+    }
+    else if (_reaction.Steps == null || !_reaction.Steps.Any())
+    {
+        <p><em>Não há passos cadastrados para esta reação.</em></p>
+    }
+    else
+    {
+        <h1 class="steps-title">Passo @(_currentStepIndex + 1) de @_reaction.Steps.Count</h1>
+        <div class="step-content">
+            <h2>@_reaction.Steps[_currentStepIndex].Title</h2>
+            @if (_reaction.Steps[_currentStepIndex].Paragraphs != null)
             {
-                <li>
-                    <strong>LIBRAS:</strong> @step.Libra<br />
-                    <span style="color:gray"><strong>Português:</strong> @step.Portuguese</span>
-                </li>
+                foreach (var p in _reaction.Steps[_currentStepIndex].Paragraphs!)
+                {
+                    <p>@p</p>
+                }
             }
-        </ol>
+            @if (!string.IsNullOrEmpty(_reaction.Steps[_currentStepIndex].Libra))
+            {
+                <img src="@_reaction.Steps[_currentStepIndex].Libra" alt="Libras" class="libras-img" />
+            }
+        </div>
         <div class="steps-btns">
             <button class="back-btn" @onclick="GoBack">Voltar</button>
-            <button class="next-btn" @onclick="GoToFinish">Finalizar</button>
+            <button class="next-btn" @onclick="GoNext">@(_currentStepIndex == _reaction.Steps.Count - 1 ? "Finalizar" : "Próximo")</button>
         </div>
-    </div>
-}
-else
-{
-    <p>Carregando...</p>
-}
+    }
+</div>
 
 @code {
     [Parameter]
     public string? reactionName { get; set; }
 
-    private Reaction? reaction;
+    private Reaction? _reaction;
+    private int _currentStepIndex = 0;
 
     protected override async Task OnInitializedAsync()
     {
-        // Lê todas as reações e seleciona a correta pelo nome
         var jsonObj = await Http.GetFromJsonAsync<JsonElement>("data/reacoes.json");
-        var reactions = jsonObj.GetProperty("reactions").Deserialize<List<Reaction>>();
-        reaction = reactions?.FirstOrDefault(r => r.Name == reactionName);
+        var reactions = jsonObj.TryGetProperty("reactions", out var arr) ? arr.Deserialize<List<Reaction>>() : null;
+        _reaction = reactions?.FirstOrDefault(r => r.Name == reactionName);
     }
+
     private void GoBack()
     {
-        NavigationManager.NavigateTo($"/reaction-epis/{Uri.EscapeDataString(reactionName ?? "")}");
+        if (_currentStepIndex > 0)
+            _currentStepIndex--;
+        else if (_currentStepIndex == 0)
+            NavigationManager.NavigateTo($"/reaction-epis/{Uri.EscapeDataString(reactionName ?? "")}");
     }
-    private void GoToFinish()
+
+    private void GoNext()
     {
-        NavigationManager.NavigateTo("/");
+        if (_reaction == null || _reaction.Steps == null) return;
+        if (_currentStepIndex < _reaction.Steps.Count - 1)
+            _currentStepIndex++;
+        else
+            NavigationManager.NavigateTo("/"); // Ou redirecionar para outra tela final
     }
 }
 
 <style>
+.steps-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.steps-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    color: black;
+}
+.step-content {
+    margin-bottom: 2rem;
+    color: black;
+    font-size: 1.1rem;
+}
+.libras-img {
+    max-width: 320px;
+    margin-top: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
 .steps-btns {
     display: flex;
     justify-content: space-between;
-    margin-top: 2.5rem;
+    gap: 2.5rem;
     align-self: stretch;
 }
 .back-btn {

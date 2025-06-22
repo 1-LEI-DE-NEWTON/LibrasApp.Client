@@ -126,6 +126,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\icons\escala_ph.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\icons\measuring-cup.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LibrasApp.Client</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>data/icons/measuring-cup.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p4q36sbztu</Fingerprint>
+      <Integrity>9zI8PYK2oFSa5d8es/P4td3Kg/g0ZlnUg6aTaZsRrZ8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\icons\measuring-cup.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\icons\palito_madeira.png'))">
       <SourceType>Package</SourceType>
       <SourceId>LibrasApp.Client</SourceId>
@@ -264,8 +282,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lpfd2j3dy9</Fingerprint>
-      <Integrity>N5GMxhTQ5nDtXo8ZV3R91tL4eTizvpwFrWuTlEWQZs4=</Integrity>
+      <Fingerprint>sl21g7omj6</Fingerprint>
+      <Integrity>cE8j8jOLFJwNrNmk8W6OdZUCUfGhjRTsNS6rRgfOeWU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\instrumentos.json'))</OriginalItemSpec>
@@ -318,8 +336,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tgeiku15ib</Fingerprint>
-      <Integrity>Q8p+uuNFTzP8R00fOPyBTPbWNdGnZ5spzCF3IZIOv7A=</Integrity>
+      <Fingerprint>97ug604w4w</Fingerprint>
+      <Integrity>5QJusuxbGlJ4CPxEOYwgBw6RbXlXZjD/Iwi8ZO2/obg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\reacoes.json'))</OriginalItemSpec>

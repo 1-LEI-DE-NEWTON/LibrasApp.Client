@@ -5,6 +5,11 @@ namespace LibrasApp.Shared.Models
     public class ReactionStep
     {
         public int Step { get; set; }
+        [JsonPropertyName("title")]
+        public string? Title { get; set; }
+        [JsonPropertyName("paragraphs")]
+        public List<string>? Paragraphs { get; set; }
+        // Mantém compatibilidade com campos antigos
         [JsonPropertyName("libra")]
         public string? Libra { get; set; }
         [JsonPropertyName("portuguese")]
