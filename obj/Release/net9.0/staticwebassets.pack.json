@@ -53,8 +53,24 @@
       "PackagePath": "staticwebassets\\data\\icons\\solucao.png"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\imgs\\escala_ph.png",
+      "PackagePath": "staticwebassets\\data\\imgs\\escala_ph.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\imgs\\flor_hortensia.png",
+      "PackagePath": "staticwebassets\\data\\imgs\\flor_hortensia.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\imgs\\indicador_repolho.png",
+      "PackagePath": "staticwebassets\\data\\imgs\\indicador_repolho.png"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json",
       "PackagePath": "staticwebassets\\data\\instrumentos.json"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\introduction.json",
+      "PackagePath": "staticwebassets\\data\\introduction.json"
     },
     {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\materiais.json",

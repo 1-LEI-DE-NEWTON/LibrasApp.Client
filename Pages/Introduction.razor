@@ -1,0 +1,133 @@
+@page "/introduction"
+
+<div class="introduction-container">
+    <h2>Introdução</h2>
+    <div class="intro-text">
+        <h3>@introParts.ElementAtOrDefault(currentPart)?.Title</h3>
+        @if (introParts.ElementAtOrDefault(currentPart)?.Paragraphs != null)
+        {
+            foreach (var p in introParts[currentPart].Paragraphs!)
+            {
+                <p>@p</p>
+            }
+        }
+        @if (introParts.ElementAtOrDefault(currentPart)?.List != null)
+        {
+            <ul>
+                @foreach (var item in introParts[currentPart].List!)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+        }
+        @if (!string.IsNullOrEmpty(introParts.ElementAtOrDefault(currentPart)?.ImageUrl))
+        {
+            <img src="@introParts[currentPart].ImageUrl" alt="Imagem explicativa" class="intro-img" />
+        }
+    </div>
+    <div class="intro-controls">
+        <button class="intro-btn" @onclick="() => PreviousPart()">Voltar</button>
+        <button class="intro-btn" @onclick="() => NextPart()">@(currentPart == introParts.Count - 1 ? "Instrumentos Necessários" : "Próximo")</button>
+    </div>
+</div>
+
+@code {
+    private int currentPart = 0;
+    
+    public class IntroPart
+    {
+        public string? Title { get; set; }
+        public List<string>? Paragraphs { get; set; }
+        public List<string>? List { get; set; }
+        public string? ImageUrl { get; set; }
+    }
+
+    private List<IntroPart> introParts = new();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var json = await Http.GetStringAsync("data/introduction.json");
+        introParts = System.Text.Json.JsonSerializer.Deserialize<List<IntroPart>>(json) ?? new List<IntroPart>();
+    }
+
+    private void NextPart()
+    {
+        if (currentPart < introParts.Count - 1)
+        {
+            currentPart++;
+        }
+        else if (currentPart == introParts.Count - 1)
+        {
+            NavigationManager.NavigateTo("/reaction-instruments/Reação%20Ácido-Base%201");
+        }
+    }
+    private void PreviousPart()
+    {
+        if (currentPart > 0)
+        {
+            currentPart--;
+        }
+        else if (currentPart == 0)
+        {
+            NavigationManager.NavigateTo("/reaction-selection");
+        }
+    }
+}
+
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+
+<style>
+.introduction-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.introduction-container h2 {
+    font-size: 2rem;
+    color: #1976d2;
+    margin-bottom: 1.5rem;
+}
+.intro-text {
+    font-size: 1.15rem;
+    color: #222;
+    margin-bottom: 2.2rem;
+    min-height: 120px;
+}
+.intro-img {
+    display: block;
+    max-width: 320px;
+    margin: 1.5rem auto 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+.intro-controls {
+    display: flex;
+    justify-content: space-between;
+}
+.intro-btn {
+    background: #1976D2;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+.intro-btn:disabled {
+    background: #b0b0b0;
+    cursor: not-allowed;
+}
+.intro-btn:not(:disabled):hover {
+    background: #1565c0;
+}
+</style>

@@ -1,0 +1,73 @@
+[
+  {
+    "Title": "O que são Ácidos?",
+    "Paragraphs": [
+      "Imagine uma substância que, quando colocada em água, libera íons H+ (prótons).",
+      "Essas substâncias são os ácidos! Eles costumam ter um sabor azedo (como o limão ou o vinagre) e podem ser corrosivos.",
+      "No nosso experimento, o vinagre branco é o ácido que vamos usar."
+    ]
+  },
+  {
+    "Title": "O que são Bases?",
+    "Paragraphs": [
+      "Agora, pense em uma substância que, ao ser adicionada à água, libera íons OH− (hidroxilas). Essas são as bases!",
+      "Elas geralmente têm um sabor amargo e são escorregadias ao toque (como o sabão).",
+      "No nosso experimento, o bicarbonato de sódio é a base que vamos utilizar."
+    ]    
+  },
+  {
+    "Title": "O que é pH?",
+    "Paragraphs": [
+      "O pH é uma escala numérica que mede o quão ácido ou básico algo é. Essa escala vai de 0 a 14:",
+      "Abaixo estão exemplos de valores de pH:"
+    ],
+    "List": [
+      "pH menor que 7: São as substâncias ácidas. Quanto menor o número, mais ácido é!",
+      "pH igual a 7: É o ponto neutro, como a água pura.",
+      "pH maior que 7: São as substâncias básicas. Quanto maior o número, mais básico é!"
+    ]    
+  },
+  {
+    "Title": "Escala de pH:",
+    "ImageUrl": "data/imgs/escala_ph.png"
+  },
+  {
+    "Title": "Reação Ácido-Base (Neutralização):",
+    "Paragraphs": [
+      "Uma reação ácido-base, também conhecida como reação de neutralização, acontece quando um ácido e uma base se encontram. Eles reagem entre si, e o resultado é a formação de água e um sal, tendendo a neutralizar o meio.",
+      "Essas reações são muito importantes e liberam calor. Elas são usadas desde o tratamento da água até na produção de alimentos e remédios."      
+    ]
+  },
+  {
+    "Title": "Reação Ácido-Base (Neutralização)",
+    "Paragraphs": [
+      "No nosso corpo, elas ajudam a manter o equilíbrio do pH, o que é essencial para a nossa saúde.",
+      "Você já se perguntou o que acontece quando misturamos um ácido, como o vinagre, com uma base, como o bicarbonato de sódio? Acontece uma reação de neutralização!"
+    ]    
+  },
+  {
+    "Title": "Indicador de pH de Repolho Roxo",
+    "Paragraphs": [
+      "Para ver a mágica acontecer, vamos usar um indicador natural feito de repolho roxo. O repolho roxo contém substâncias chamadas antocianinas.  Elas são responsáveis pelas cores vermelha, roxa e azul em muitas plantas, como flores e frutas. ",
+      "O mais incrível é que as antocianinas mudam de cor dependendo do pH do meio em que estão.",
+      "Por isso, podemos usá-las como um indicador de pH natural para saber se uma solução é ácida, neutra ou básica."
+    ]    
+  },
+  {
+    "Title": "Escala de pH do Indicador de repolho roxo:",
+    "ImageUrl": "data/imgs/indicador_repolho.png"
+  },
+  {
+    "Title": "Exemplo de indicador de pH",
+    "Paragraphs": [
+      "A flor Hortênsia é um exemplo de planta que muda de cor dependendo do pH do solo por conta da presença de antocianinas:"
+    ],
+    "ImageUrl": "data/imgs/flor_hortensia.png"
+  },  
+  {
+    "Title": "Próxima Etapa",
+    "Paragraphs": [
+      "Agora que você já conhece os conceitos fundamentais, siga para a próxima etapa para explorar os instrumentos e materiais necessários para o experimento!"
+    ]    
+  }
+]
