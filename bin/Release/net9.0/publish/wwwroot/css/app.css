@@ -143,6 +143,23 @@ code {
     color: #101a23;
 }
 
+/* Responsividade dos botões da introdução */
+@media (max-width: 600px) {
+    .intro-controls {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .intro-btn {
+        width: 100%;
+        padding: 0.7rem 1rem;
+        font-size: 1rem;
+    }
+    .intro-btn:last-child {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
 @media (max-width: 640.98px) {
     .reaction-list a {
         font-size: 1rem;
