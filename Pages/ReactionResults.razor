@@ -1,0 +1,193 @@
+@page "/reaction-results/{reactionName}"
+
+@using System.Text.Json
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<div class="results-container">
+    @if (_result == null)
+    {
+        <p><em>Carregando resultados esperados...</em></p>
+    }
+    else
+    {
+        <h1 class="results-title">Resultados Esperados da Reação Ácido-Base</h1>
+        <div class="result-text">
+            @if (_result.results != null && _result.results.Count > 0)
+            {
+                var item = _result.results[_currentIndex];
+                if (item.paragraphs != null)
+                {
+                    foreach (var p in item.paragraphs)
+                    {
+                        <p>@p</p>
+                    }
+                }
+                if (item.List != null)
+                {
+                    <ul class="result-list">
+                        @foreach (var l in item.List)
+                        {
+                            <li>@l</li>
+                        }
+                    </ul>
+                }
+                if (item.imageUrl != null)
+                {
+                    <img src="@item.imageUrl" alt="Resultado visual" class="result-img" />
+                }
+            }
+        </div>
+        <div class="results-btns">
+            <button class="back-btn" @onclick="GoBack">Voltar</button>
+            <button class="next-btn" @onclick="GoNext">@(_currentIndex == _result.results.Count - 1 ? "Finalizar" : "Próximo")</button>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string? reactionName { get; set; }
+
+    private ResultData? _result;
+    private int _currentIndex = 0;
+
+    public class ResultData
+    {
+        public string? reactionName { get; set; }
+        public List<ResultItem> results { get; set; } = new();
+    }
+    public class ResultItem
+    {
+        public List<string>? paragraphs { get; set; }
+        public List<string>? List { get; set; }
+        public string? imageUrl { get; set; }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var json = await Http.GetStringAsync("data/resultados.json");
+        var doc = JsonDocument.Parse(json);
+        var root = doc.RootElement;
+        _result = new ResultData
+        {
+            reactionName = root.GetProperty("reactionName").GetString(),
+            results = new List<ResultItem>()
+        };
+        if (root.TryGetProperty("results", out var resultsArr))
+        {
+            foreach (var item in resultsArr.EnumerateArray())
+            {
+                string? img = null;
+                if (item.TryGetProperty("imageUrl", out var imgProp))
+                    img = imgProp.GetString();
+                else if (item.TryGetProperty("ImageUrl", out var imgProp2))
+                    img = imgProp2.GetString();
+                var resultItem = new ResultItem
+                {
+                    paragraphs = item.TryGetProperty("paragraphs", out var p) ? p.EnumerateArray().Select(x => x.GetString() ?? "").ToList() : null,
+                    List = item.TryGetProperty("List", out var l) ? l.EnumerateArray().Select(x => x.GetString() ?? "").ToList() : null,
+                    imageUrl = img
+                };
+                _result.results.Add(resultItem);
+            }
+        }
+    }
+
+    private void GoBack()
+    {
+        if (_currentIndex > 0)
+            _currentIndex--;
+        else
+            NavigationManager.NavigateTo($"/reaction-steps/{Uri.EscapeDataString(reactionName ?? "")}");
+    }
+
+    private void GoNext()
+    {
+        if (_result == null || _result.results == null) return;
+        if (_currentIndex < _result.results.Count - 1)
+            _currentIndex++;
+        else
+            NavigationManager.NavigateTo("/");
+    }
+}
+
+<style>
+.results-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.results-title {
+    font-size: 2rem;
+    color: #1976d2;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+.result-text {
+    font-size: 1.15rem;
+    color: #222;
+    margin-bottom: 2.2rem;
+    min-height: 120px;
+}
+.result-list {
+    font-size: 1.1rem;
+    margin: 1.2rem 0 1.2rem 2.2rem;
+    color: #222;
+    list-style-type: disc;
+}
+.result-list li {
+    margin-bottom: 0.7rem;
+    color: #222;
+    font-weight: 500;
+}
+.results-btns {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    margin-top: 2rem;
+}
+.back-btn {
+    background: #c9e0f2;
+    color: #222;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.back-btn:hover {
+    background: #b0cbe0;
+}
+.next-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.next-btn:hover {
+    background: #2563eb;
+}
+.result-img {
+    display: block;
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+    margin: 1.5rem auto 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+</style>

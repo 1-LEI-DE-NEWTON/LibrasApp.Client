@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\data\\imgs\\indicador_repolho.png"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\imgs\\resultado_reacao1.jpg",
+      "PackagePath": "staticwebassets\\data\\imgs\\resultado_reacao1.jpg"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\instrumentos.json",
       "PackagePath": "staticwebassets\\data\\instrumentos.json"
     },
@@ -83,6 +87,10 @@
     {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\reacoes.json",
       "PackagePath": "staticwebassets\\data\\reacoes.json"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\resultados.json",
+      "PackagePath": "staticwebassets\\data\\resultados.json"
     },
     {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\index.html",

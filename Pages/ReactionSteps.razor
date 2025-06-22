@@ -66,7 +66,7 @@
         if (_currentStepIndex < _reaction.Steps.Count - 1)
             _currentStepIndex++;
         else
-            NavigationManager.NavigateTo("/"); // Ou redirecionar para outra tela final
+            NavigationManager.NavigateTo($"/reaction-results/{Uri.EscapeDataString(reactionName ?? "")}");
     }
 }
 
@@ -102,8 +102,7 @@
 .steps-btns {
     display: flex;
     justify-content: space-between;
-    gap: 2.5rem;
-    align-self: stretch;
+    gap: 0.5rem;
 }
 .back-btn {
     background: #c9e0f2;

@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "LibrasApp.Client",
   "resources": {
-    "hash": "sha256-0955m/auk/UL6CgN5qwFSmRdaYNnbKZWlbkDBzK37w4=",
+    "hash": "sha256-8TUB4qr0/TQGJb1IvAfB2k+u2iRYQppM/bdu9TiYcg8=",
     "fingerprinting": {
-      "LibrasApp.Client.4pkxr14k5v.wasm": "LibrasApp.Client.wasm",
+      "LibrasApp.Client.gshzqnl4pa.wasm": "LibrasApp.Client.wasm",
       "Microsoft.AspNetCore.Components.py7zoml2z4.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.pq1s9tpl5w.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.ojjbeuchn6.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -25,7 +25,7 @@
       "System.Console.2jsq9tqudn.wasm": "System.Console.wasm",
       "System.Diagnostics.DiagnosticSource.5x8ov3fqsf.wasm": "System.Diagnostics.DiagnosticSource.wasm",
       "System.IO.Pipelines.twix2pm6u4.wasm": "System.IO.Pipelines.wasm",
-      "System.Linq.2qkoy97iip.wasm": "System.Linq.wasm",
+      "System.Linq.5bx81sf2ki.wasm": "System.Linq.wasm",
       "System.Memory.376umsijmx.wasm": "System.Memory.wasm",
       "System.Net.Http.Json.d77yizflkj.wasm": "System.Net.Http.Json.wasm",
       "System.Net.Http.obn1xeqlm2.wasm": "System.Net.Http.wasm",
@@ -64,7 +64,7 @@
       "System.Runtime.InteropServices.JavaScript.mwa725m7o8.wasm": "sha256-Cjdb0G7x7YHp1aN8K34JIjyB6iQIEsmMfoZJJ71ZuOw="
     },
     "assembly": {
-      "LibrasApp.Client.4pkxr14k5v.wasm": "sha256-+DmfCmfEOgD/EW7rNHz7YYDhcblgRxJrhtLnloIMUl4=",
+      "LibrasApp.Client.gshzqnl4pa.wasm": "sha256-MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ=",
       "Microsoft.AspNetCore.Components.py7zoml2z4.wasm": "sha256-7+x5PTgKh+K55/ec3dctC+YfXUurYbxmUPLfnIQYHGU=",
       "Microsoft.AspNetCore.Components.Web.pq1s9tpl5w.wasm": "sha256-L/vXNWFdWzaeEfyWsCdr4529OiDf9c+AR/CT6Lw5ZCw=",
       "Microsoft.AspNetCore.Components.WebAssembly.ojjbeuchn6.wasm": "sha256-TMJrwxmh7raq50FXlf8OFb9/PXWC0dJ48IVhshQE3jE=",
@@ -86,7 +86,7 @@
       "System.Console.2jsq9tqudn.wasm": "sha256-EpCliVfs3D2AO0dQmu7Y10V9FNhm+kRUkHXNxJ6cCHo=",
       "System.Diagnostics.DiagnosticSource.5x8ov3fqsf.wasm": "sha256-1+EnP1AjPPm8MogXyeDkqWthhWJ5Rd7nyxex66CSiRg=",
       "System.IO.Pipelines.twix2pm6u4.wasm": "sha256-A/zbBw0DrouhwRThvr8F1IcKa5ApGW5BE01HoHB7igA=",
-      "System.Linq.2qkoy97iip.wasm": "sha256-Fmvn+7h7iCXJd0mUNh8/lPp50XY6eYhbMpHiff2Zh28=",
+      "System.Linq.5bx81sf2ki.wasm": "sha256-oVv0wszgEv88ShR4ZrghQyYtfO6FGtX/j+4c1UFFzfs=",
       "System.Memory.376umsijmx.wasm": "sha256-Id8kvdCmyELUiPRdtVsE+N50Zd77JIKBoYxyy4IM2ps=",
       "System.Net.Http.Json.d77yizflkj.wasm": "sha256-+UYnoln0qDJD3pk1bV6a29MDMIxDLwKkciwAcuU0zKY=",
       "System.Net.Http.obn1xeqlm2.wasm": "sha256-rDqrveMvgfCmlRYIMKqUAcFC7ruEFs8U48oGN4Kywsk=",

@@ -1,0 +1,28 @@
+{
+"reactionName": "Reação Ácido-Base 1",
+    "results": 
+    [
+        {              
+        "paragraphs": [
+            "Quando você misturar o vinagre (ácido) com o bicarbonato de sódio (base), deverá observar:"                
+        ],
+        "List": [
+            "Mudança na cor da solução, do vermelho (ácido) para o roxo (neutro) e depois para o verde (básico), graças ao indicador natural de repolho roxo.",
+            "Formação de bolhas, que são gás carbônico (CO₂) sendo liberado durante a reação"        
+        ]        
+        },
+        {        
+        "paragraphs": [
+            "A reação química que acontece é a seguinte:",
+            "CH3COOH + NaHCO3 → CH3COONa + H2O + CO2↑",            
+            "Ou seja, o ácido acético (vinagre) reage com o bicarbonato de sódio, formando acetato de sódio, água e gás carbônico."
+        ]
+        },
+        {
+        "paragraphs": [
+            "O que você deve observar é algo parecido com esta imagem:"
+        ],
+        "ImageUrl": "data/imgs/resultado_reacao1.jpg"
+        }
+    ]
+}
