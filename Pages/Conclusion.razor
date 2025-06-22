@@ -1,0 +1,140 @@
+@page "/conclusion"
+
+<div class="conclusion-container">
+    <h2>Conclusão</h2>
+    <div class="conclusion-text">
+        <h3>@conclusionParts.ElementAtOrDefault(currentPart)?.Title</h3>
+        @if (conclusionParts.ElementAtOrDefault(currentPart)?.Paragraphs != null)
+        {
+            foreach (var p in conclusionParts[currentPart].Paragraphs!)
+            {
+                <p>@p</p>
+            }
+        }
+        @if (conclusionParts.ElementAtOrDefault(currentPart)?.List != null)
+        {
+            <ul>
+                @foreach (var item in conclusionParts[currentPart].List!)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+        }
+        @if (!string.IsNullOrEmpty(conclusionParts.ElementAtOrDefault(currentPart)?.ImageUrl))
+        {
+            <img src="@conclusionParts[currentPart].ImageUrl" alt="Imagem explicativa" class="conclusion-img" />
+        }
+    </div>
+    <div class="conclusion-controls">
+        <button class="back-btn" @onclick="() => PreviousPart()">Voltar</button>
+        <button class="next-btn" @onclick="() => NextPart()">@(currentPart == conclusionParts.Count - 1 ? "Finalizar" : "Próximo")</button>
+    </div>
+</div>
+
+@code {
+    private int currentPart = 0;
+    public class ConclusionPart
+    {
+        public string? Title { get; set; }
+        public List<string>? Paragraphs { get; set; }
+        public List<string>? List { get; set; }
+        public string? ImageUrl { get; set; }
+    }
+    private List<ConclusionPart> conclusionParts = new();
+    protected override async Task OnInitializedAsync()
+    {
+        var json = await Http.GetStringAsync("data/conclusion.json");
+        conclusionParts = System.Text.Json.JsonSerializer.Deserialize<List<ConclusionPart>>(json) ?? new List<ConclusionPart>();
+    }
+    private void NextPart()
+    {
+        if (currentPart < conclusionParts.Count - 1)
+        {
+            currentPart++;
+        }
+        else if (currentPart == conclusionParts.Count - 1)
+        {
+            NavigationManager.NavigateTo("/");
+        }
+    }
+    private void PreviousPart()
+    {
+        if (currentPart > 0)
+        {
+            currentPart--;
+        }
+        else if (currentPart == 0)
+        {
+            NavigationManager.NavigateTo("/");
+        }
+    }
+}
+
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+
+<style>
+.conclusion-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.conclusion-container h2 {
+    font-size: 2rem;
+    color: #1976d2;
+    margin-bottom: 1.5rem;
+}
+.conclusion-text {
+    font-size: 1.15rem;
+    color: #222;
+    margin-bottom: 2.2rem;
+    min-height: 120px;
+}
+.conclusion-img {
+    display: block;
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+    margin: 1.5rem auto 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+.conclusion-controls {
+    display: flex;
+    justify-content: space-between;
+}
+.back-btn {
+    background: #c9e0f2;
+    color: #222;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.back-btn:hover {
+    background: #b0cbe0;
+}
+.next-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.next-btn:hover {
+    background: #2563eb;
+}
+</style>
