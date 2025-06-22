@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mw\u002BQCBtd3wzPa8qqpp6XycflvZODjAP9uYXHYVxbjLU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5285"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mw\u002BQCBtd3wzPa8qqpp6XycflvZODjAP9uYXHYVxbjLU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 01:40:41 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5285"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mw\u002BQCBtd3wzPa8qqpp6XycflvZODjAP9uYXHYVxbjLU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 02:18:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="css/app.htseno909e.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"htseno909e"},{"Name":"integrity","Value":"sha256-mw\u002BQCBtd3wzPa8qqpp6XycflvZODjAP9uYXHYVxbjLU="},{"Name":"label","Value":"css/app.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5285"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mw\u002BQCBtd3wzPa8qqpp6XycflvZODjAP9uYXHYVxbjLU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 01:40:41 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5285"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mw\u002BQCBtd3wzPa8qqpp6XycflvZODjAP9uYXHYVxbjLU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 02:18:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="css/chemistry-bg.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\chemistry-bg.png'))</AssetFile>

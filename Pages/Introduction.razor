@@ -112,10 +112,9 @@
 .intro-controls {
     display: flex;
     justify-content: space-between;
-    gap: 0.7rem;
 }
 .intro-btn {
-    background: #1976D2;
+    background: #3b82f6;
     color: #fff;
     border: none;
     border-radius: 12px;
@@ -125,15 +124,15 @@
     cursor: pointer;
     transition: background 0.2s;
     box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
-    white-space: nowrap;
-    flex: 1 1 0;
-    min-width: 0;
-    max-width: 100%;
 }
-.intro-btn:last-child {
-    white-space: normal;
-    word-break: break-word;
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
+.intro-btn:hover {
+    background: #2563eb;
+}
+.intro-btn:disabled {
+    background: #b0b0b0;
+    cursor: not-allowed;
+}
+.intro-btn:not(:disabled):hover {
+    background: #1565c0;
 }
 </style>
