@@ -16,7 +16,12 @@
     }
     else
     {
-        <h1 class="steps-title">Passo @(_currentStepIndex + 1) de @_reaction.Steps.Count</h1>
+        <h1 class="steps-title">
+            @GetReactionPrefix(_reaction?.Name)            
+        </h1>
+        <h2 class="steps-subtitle">
+            Passo @(_currentStepIndex + 1) de @_reaction.Steps.Count
+        </h2>
         <div class="step-content">
             <h2>@_reaction.Steps[_currentStepIndex].Title</h2>
             @if (_reaction.Steps[_currentStepIndex].Paragraphs != null)
@@ -33,7 +38,7 @@
         </div>
         <div class="steps-btns">
             <button class="back-btn" @onclick="GoBack">Voltar</button>
-            <button class="next-btn" @onclick="GoNext">@(_currentStepIndex == _reaction.Steps.Count - 1 ? "Finalizar" : "Próximo")</button>
+            <button class="next-btn" @onclick="GoNext">@(_currentStepIndex == _reaction.Steps.Count - 1 ? "Resultados esperados" : "Próximo")</button>
         </div>
     }
 </div>
@@ -68,6 +73,16 @@
         else
             NavigationManager.NavigateTo($"/reaction-results/{Uri.EscapeDataString(reactionName ?? "")}");
     }
+
+    private string GetReactionPrefix(string? reactionName)
+    {
+        if (string.IsNullOrWhiteSpace(reactionName)) return string.Empty;
+        if (reactionName.Contains("Ácido-Base"))
+            return "Parte 1: Reação Ácido-Base:";
+        if (reactionName.Contains("Escala de PH"))
+            return "Parte 2: Escala de PH com Indicador de repolho roxo:";
+        return $"{reactionName} -";
+    }
 }
 
 <style>
@@ -87,6 +102,12 @@
     font-weight: bold;
     margin-bottom: 1.2rem;
     color: black;
+}
+.steps-subtitle {
+    color: #3b82f6;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
 }
 .step-content {
     margin-bottom: 2rem;
