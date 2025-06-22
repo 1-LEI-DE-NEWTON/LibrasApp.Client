@@ -444,8 +444,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4hzcuc2laz</Fingerprint>
-      <Integrity>aNM2aeeL33nS50KZmZ8z/twOFmAb/36dmBArYZzPnOM=</Integrity>
+      <Fingerprint>nk5xi82ay2</Fingerprint>
+      <Integrity>iVN/UaQV402r7yiv9uV8GFXmtYjfJ35csmCO25cRY8A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\reacoes.json'))</OriginalItemSpec>
