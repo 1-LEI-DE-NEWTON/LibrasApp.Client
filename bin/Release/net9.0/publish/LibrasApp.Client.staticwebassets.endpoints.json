@@ -517,13 +517,13 @@
       ]
     },
     {
-      "Route": "_framework/LibrasApp.Client.gshzqnl4pa.wasm",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.br",
+      "Route": "_framework/LibrasApp.Client.26wvdhneki.wasm",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000062754942"
+          "Quality": "0.000062383032"
         }
       ],
       "ResponseHeaders": [
@@ -541,7 +541,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15934"
+          "Value": "16029"
         },
         {
           "Name": "Content-Type",
@@ -549,15 +549,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+X/ZczPw3NGmALaVRX7X8R26wikBZLxGFMMlX+YBMec=\""
+          "Value": "\"7hjmzTQFv/k3T9St7SkIe155lMr1knJLW6rAnVO0shI=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ=\""
+          "Value": "W/\"mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         },
         {
           "Name": "Vary",
@@ -567,11 +567,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gshzqnl4pa"
+          "Value": "26wvdhneki"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ="
+          "Value": "sha256-mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E="
         },
         {
           "Name": "label",
@@ -580,13 +580,13 @@
       ]
     },
     {
-      "Route": "_framework/LibrasApp.Client.gshzqnl4pa.wasm",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.gz",
+      "Route": "_framework/LibrasApp.Client.26wvdhneki.wasm",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000051783957"
+          "Quality": "0.000051749120"
         }
       ],
       "ResponseHeaders": [
@@ -604,7 +604,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19310"
+          "Value": "19323"
         },
         {
           "Name": "Content-Type",
@@ -612,15 +612,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yGyTMVI31ptkBVvKXYQYA4gLmV4VMJ3OnsEvR5iwXvE=\""
+          "Value": "\"wzPjvzIkuwbTQRY5GraOW8ElFmAPgsaTBWXzkpggYhE=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ=\""
+          "Value": "W/\"mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         },
         {
           "Name": "Vary",
@@ -630,11 +630,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gshzqnl4pa"
+          "Value": "26wvdhneki"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ="
+          "Value": "sha256-mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E="
         },
         {
           "Name": "label",
@@ -643,8 +643,8 @@
       ]
     },
     {
-      "Route": "_framework/LibrasApp.Client.gshzqnl4pa.wasm",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm",
+      "Route": "_framework/LibrasApp.Client.26wvdhneki.wasm",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -665,21 +665,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ=\""
+          "Value": "\"mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gshzqnl4pa"
+          "Value": "26wvdhneki"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ="
+          "Value": "sha256-mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E="
         },
         {
           "Name": "label",
@@ -688,8 +688,8 @@
       ]
     },
     {
-      "Route": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.br",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.br",
+      "Route": "_framework/LibrasApp.Client.26wvdhneki.wasm.br",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -706,7 +706,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15934"
+          "Value": "16029"
         },
         {
           "Name": "Content-Type",
@@ -714,11 +714,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+X/ZczPw3NGmALaVRX7X8R26wikBZLxGFMMlX+YBMec=\""
+          "Value": "\"7hjmzTQFv/k3T9St7SkIe155lMr1knJLW6rAnVO0shI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         },
         {
           "Name": "Vary",
@@ -728,11 +728,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gshzqnl4pa"
+          "Value": "26wvdhneki"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+X/ZczPw3NGmALaVRX7X8R26wikBZLxGFMMlX+YBMec="
+          "Value": "sha256-7hjmzTQFv/k3T9St7SkIe155lMr1knJLW6rAnVO0shI="
         },
         {
           "Name": "label",
@@ -741,8 +741,8 @@
       ]
     },
     {
-      "Route": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.gz",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.gz",
+      "Route": "_framework/LibrasApp.Client.26wvdhneki.wasm.gz",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -759,7 +759,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19310"
+          "Value": "19323"
         },
         {
           "Name": "Content-Type",
@@ -767,11 +767,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yGyTMVI31ptkBVvKXYQYA4gLmV4VMJ3OnsEvR5iwXvE=\""
+          "Value": "\"wzPjvzIkuwbTQRY5GraOW8ElFmAPgsaTBWXzkpggYhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         },
         {
           "Name": "Vary",
@@ -781,11 +781,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gshzqnl4pa"
+          "Value": "26wvdhneki"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yGyTMVI31ptkBVvKXYQYA4gLmV4VMJ3OnsEvR5iwXvE="
+          "Value": "sha256-wzPjvzIkuwbTQRY5GraOW8ElFmAPgsaTBWXzkpggYhE="
         },
         {
           "Name": "label",
@@ -795,12 +795,12 @@
     },
     {
       "Route": "_framework/LibrasApp.Client.wasm",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.br",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000062754942"
+          "Quality": "0.000062383032"
         }
       ],
       "ResponseHeaders": [
@@ -818,7 +818,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15934"
+          "Value": "16029"
         },
         {
           "Name": "Content-Type",
@@ -826,15 +826,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+X/ZczPw3NGmALaVRX7X8R26wikBZLxGFMMlX+YBMec=\""
+          "Value": "\"7hjmzTQFv/k3T9St7SkIe155lMr1knJLW6rAnVO0shI=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ=\""
+          "Value": "W/\"mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         },
         {
           "Name": "Vary",
@@ -844,18 +844,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ="
+          "Value": "sha256-mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E="
         }
       ]
     },
     {
       "Route": "_framework/LibrasApp.Client.wasm",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.gz",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000051783957"
+          "Quality": "0.000051749120"
         }
       ],
       "ResponseHeaders": [
@@ -873,7 +873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19310"
+          "Value": "19323"
         },
         {
           "Name": "Content-Type",
@@ -881,15 +881,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yGyTMVI31ptkBVvKXYQYA4gLmV4VMJ3OnsEvR5iwXvE=\""
+          "Value": "\"wzPjvzIkuwbTQRY5GraOW8ElFmAPgsaTBWXzkpggYhE=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ=\""
+          "Value": "W/\"mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         },
         {
           "Name": "Vary",
@@ -899,13 +899,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ="
+          "Value": "sha256-mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E="
         }
       ]
     },
     {
       "Route": "_framework/LibrasApp.Client.wasm",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -926,23 +926,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ=\""
+          "Value": "\"mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MFVxFzrjivu21hxPvguRD1yUVzVOuZXkCOuw+9LmvoQ="
+          "Value": "sha256-mrV2aREl2zEuuO6eo1vj34X9AaQ9yENXh1LfD7PBr1E="
         }
       ]
     },
     {
       "Route": "_framework/LibrasApp.Client.wasm.br",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.br",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -959,7 +959,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15934"
+          "Value": "16029"
         },
         {
           "Name": "Content-Type",
@@ -967,11 +967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+X/ZczPw3NGmALaVRX7X8R26wikBZLxGFMMlX+YBMec=\""
+          "Value": "\"7hjmzTQFv/k3T9St7SkIe155lMr1knJLW6rAnVO0shI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         },
         {
           "Name": "Vary",
@@ -981,13 +981,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+X/ZczPw3NGmALaVRX7X8R26wikBZLxGFMMlX+YBMec="
+          "Value": "sha256-7hjmzTQFv/k3T9St7SkIe155lMr1knJLW6rAnVO0shI="
         }
       ]
     },
     {
       "Route": "_framework/LibrasApp.Client.wasm.gz",
-      "AssetFile": "_framework/LibrasApp.Client.gshzqnl4pa.wasm.gz",
+      "AssetFile": "_framework/LibrasApp.Client.26wvdhneki.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1004,7 +1004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19310"
+          "Value": "19323"
         },
         {
           "Name": "Content-Type",
@@ -1012,11 +1012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yGyTMVI31ptkBVvKXYQYA4gLmV4VMJ3OnsEvR5iwXvE=\""
+          "Value": "\"wzPjvzIkuwbTQRY5GraOW8ElFmAPgsaTBWXzkpggYhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:14 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:35 GMT"
         },
         {
           "Name": "Vary",
@@ -1026,7 +1026,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yGyTMVI31ptkBVvKXYQYA4gLmV4VMJ3OnsEvR5iwXvE="
+          "Value": "sha256-wzPjvzIkuwbTQRY5GraOW8ElFmAPgsaTBWXzkpggYhE="
         }
       ]
     },
@@ -18015,17 +18015,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YCibb3ARmhwI3jCOUX/JGGX8zqf3/JT+EiKmbyR4uGY=\""
+          "Value": "\"FrTF1rbtWaP/wI4W+I+aEoCVagi3iBk7QqLxaxxK30w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:15 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:36 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YCibb3ARmhwI3jCOUX/JGGX8zqf3/JT+EiKmbyR4uGY="
+          "Value": "sha256-FrTF1rbtWaP/wI4W+I+aEoCVagi3iBk7QqLxaxxK30w="
         }
       ]
     },
@@ -18036,7 +18036,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000392003136"
+          "Quality": "0.000392618767"
         }
       ],
       "ResponseHeaders": [
@@ -18054,7 +18054,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2550"
+          "Value": "2546"
         },
         {
           "Name": "Content-Type",
@@ -18062,15 +18062,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wSblcvwTA9x6u0B7ZPZLFW+eE4xEBP98bx110Tuc1Wc=\""
+          "Value": "\"VO8VDTzqxigKYiY59MG7zq7BFdSN51D3rbz+Bt3jIc0=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YCibb3ARmhwI3jCOUX/JGGX8zqf3/JT+EiKmbyR4uGY=\""
+          "Value": "W/\"FrTF1rbtWaP/wI4W+I+aEoCVagi3iBk7QqLxaxxK30w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:15 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:36 GMT"
         },
         {
           "Name": "Vary",
@@ -18080,7 +18080,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YCibb3ARmhwI3jCOUX/JGGX8zqf3/JT+EiKmbyR4uGY="
+          "Value": "sha256-FrTF1rbtWaP/wI4W+I+aEoCVagi3iBk7QqLxaxxK30w="
         }
       ]
     },
@@ -18091,7 +18091,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000360100828"
+          "Quality": "0.000359971202"
         }
       ],
       "ResponseHeaders": [
@@ -18109,7 +18109,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2776"
+          "Value": "2777"
         },
         {
           "Name": "Content-Type",
@@ -18117,15 +18117,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TDyFqJMBW7tO4G8gD4ZgTFnZBhKvPA6I1OF3lVngt1I=\""
+          "Value": "\"WPuLQalj7rGai2evgl6uZQxyK5hRAbvb5qXv32p3ltc=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YCibb3ARmhwI3jCOUX/JGGX8zqf3/JT+EiKmbyR4uGY=\""
+          "Value": "W/\"FrTF1rbtWaP/wI4W+I+aEoCVagi3iBk7QqLxaxxK30w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:15 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:36 GMT"
         },
         {
           "Name": "Vary",
@@ -18135,7 +18135,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YCibb3ARmhwI3jCOUX/JGGX8zqf3/JT+EiKmbyR4uGY="
+          "Value": "sha256-FrTF1rbtWaP/wI4W+I+aEoCVagi3iBk7QqLxaxxK30w="
         }
       ]
     },
@@ -18158,7 +18158,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2550"
+          "Value": "2546"
         },
         {
           "Name": "Content-Type",
@@ -18166,11 +18166,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wSblcvwTA9x6u0B7ZPZLFW+eE4xEBP98bx110Tuc1Wc=\""
+          "Value": "\"VO8VDTzqxigKYiY59MG7zq7BFdSN51D3rbz+Bt3jIc0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:15 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:36 GMT"
         },
         {
           "Name": "Vary",
@@ -18180,7 +18180,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wSblcvwTA9x6u0B7ZPZLFW+eE4xEBP98bx110Tuc1Wc="
+          "Value": "sha256-VO8VDTzqxigKYiY59MG7zq7BFdSN51D3rbz+Bt3jIc0="
         }
       ]
     },
@@ -18203,7 +18203,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2776"
+          "Value": "2777"
         },
         {
           "Name": "Content-Type",
@@ -18211,11 +18211,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TDyFqJMBW7tO4G8gD4ZgTFnZBhKvPA6I1OF3lVngt1I=\""
+          "Value": "\"WPuLQalj7rGai2evgl6uZQxyK5hRAbvb5qXv32p3ltc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 04:41:15 GMT"
+          "Value": "Sun, 22 Jun 2025 04:45:36 GMT"
         },
         {
           "Name": "Vary",
@@ -18225,7 +18225,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TDyFqJMBW7tO4G8gD4ZgTFnZBhKvPA6I1OF3lVngt1I="
+          "Value": "sha256-WPuLQalj7rGai2evgl6uZQxyK5hRAbvb5qXv32p3ltc="
         }
       ]
     },
