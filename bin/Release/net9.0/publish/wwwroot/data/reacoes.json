@@ -49,11 +49,46 @@
           ]
         }
       ]
-    }
-    
-
-
-
-    
+    },
+    {
+      "name": "Escala de PH com Indicador de Repolho Roxo",
+      "description": "Nesta parte, você aprenderá a medir o pH de diferentes soluções usando o indicador de repolho roxo.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Separe 7 copos plásticos transparentes (200 mL cada) e organize os seguintes materiais:",
+          "paragraphs": [
+            "Copo 1: Adicione 2 colheres de bicarbonato de sódio alimentício (NaHCO₃) e dissolva em 50 mL de água potável.",
+            "Copo 2: Adicione 2 colheres de sabão em pó e dissolva em 50 mL de água potável.",
+            "Copo 3: Coloque suco de limão puro.",
+            "Copo 4: Coloque detergente neutro.",
+            "Copo 5: Coloque água sanitária.",
+            "Copo 6: Coloque vinagre branco.",
+            "Copo 7: Coloque água potável."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Dissolva e misture as soluções",
+          "paragraphs": [
+            "Use palitos de madeira limpos para mexer bem as soluções dos copos 1 (bicarbonato de sódio) e 2 (sabão em pó), até que estejam completamente dissolvidas."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Adicione o indicador",
+          "paragraphs": [
+            "Adicione o indicador ácido-base (extrato de repolho roxo) em cada copo."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Observe e registre as mudanças",
+          "paragraphs": [
+            "Observe e registre as mudanças de cor que ocorrem em cada copo, indicando se o meio é ácido, neutro ou básico."
+          ]
+        }
+      ]
+    }        
   ]
 }

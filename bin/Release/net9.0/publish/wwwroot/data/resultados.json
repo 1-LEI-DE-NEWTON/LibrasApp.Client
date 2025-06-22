@@ -23,6 +23,14 @@
             "O que você deve observar é algo parecido com esta imagem:"
         ],
         "ImageUrl": "data/imgs/resultado_reacao1.jpg"
-        }
+        },
+        {
+        "paragraphs": [            
+            "Essa experiência é uma ótima maneira de entender como os ácidos e bases interagem entre si e como podemos usar indicadores naturais para visualizar essas mudanças.",
+            "Agora, vamos seguir para a Parte 2: Escala de PH com Indicador de Repolho Roxo.",
+            "Nela, você aprenderá a medir o pH de diferentes soluções usando o mesmo indicador natural.",
+            "Isso ajudará a entender melhor o conceito de pH e como ele se relaciona com a acidez e basicidade das substâncias."
+        ]
+        }        
     ]
 }

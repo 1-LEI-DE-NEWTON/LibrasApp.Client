@@ -40,7 +40,7 @@
         </div>
         <div class="results-btns">
             <button class="back-btn" @onclick="GoBack">Voltar</button>
-            <button class="next-btn" @onclick="GoNext">@(_currentIndex == _result.results.Count - 1 ? "Finalizar" : "Próximo")</button>
+            <button class="next-btn" @onclick="GoNext">@(_currentIndex == _result.results.Count - 1 ? "Seguir para Parte 2" : "Próximo")</button>
         </div>
     }
 </div>
@@ -108,7 +108,7 @@
         if (_currentIndex < _result.results.Count - 1)
             _currentIndex++;
         else
-            NavigationManager.NavigateTo("/");
+            NavigationManager.NavigateTo("/reaction-materials/Escala de PH com Indicador de Repolho Roxo");
     }
 }
 

@@ -10,11 +10,16 @@
       ]
     },
     {
-      "reactionName": "Reação Ácido-Base 2",
+      "reactionName": "Escala de PH com Indicador de Repolho Roxo",
       "items": [
-        { "name": "Ácido Acético 1M - 30ml", "iconUrl": "data/icons/acido_acetico.png" },
-        { "name": "Bicarbonato de Sódio - 1 colher de chá", "iconUrl": "data/icons/bicarbonato_sodio.png" },
-        { "name": "Água Destilada", "iconUrl": "data/icons/agua_destilada.png" }
+        { "name": "Indicador ácido-base de Repolho roxo", "iconUrl": "data/icons/escala_ph.png" },
+        { "name": "Suco de limão", "iconUrl": "data/icons/lemon_juice.png" },
+        { "name": "Vinagre branco", "iconUrl": "data/icons/vinegar-jar.png" },
+        { "name": "Água potável", "iconUrl": "data/icons/agua_potavel.png" },
+        { "name": "Detergente", "iconUrl": "data/icons/dish-soap.png" },
+        { "name": "Bicarbonato de sódio", "iconUrl": "data/icons/solucao.png" },
+        { "name": "Sabão em pó", "iconUrl": "data/icons/sabao.png" },
+        { "name": "Água sanitária", "iconUrl": "data/icons/cleaning-liquid.png" }
       ]
     }
   ]

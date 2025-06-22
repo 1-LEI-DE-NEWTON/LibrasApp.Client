@@ -29,12 +29,24 @@
       "PackagePath": "staticwebassets\\data\\icons\\agua_potavel.png"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\cleaning-liquid.png",
+      "PackagePath": "staticwebassets\\data\\icons\\cleaning-liquid.png"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\copo_de_agua.png",
       "PackagePath": "staticwebassets\\data\\icons\\copo_de_agua.png"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\dish-soap.png",
+      "PackagePath": "staticwebassets\\data\\icons\\dish-soap.png"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\escala_ph.png",
       "PackagePath": "staticwebassets\\data\\icons\\escala_ph.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\lemon_juice.png",
+      "PackagePath": "staticwebassets\\data\\icons\\lemon_juice.png"
     },
     {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\measuring-cup.png",
@@ -53,8 +65,16 @@
       "PackagePath": "staticwebassets\\data\\icons\\proveta.png"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\sabao.png",
+      "PackagePath": "staticwebassets\\data\\icons\\sabao.png"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\solucao.png",
       "PackagePath": "staticwebassets\\data\\icons\\solucao.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\vinegar-jar.png",
+      "PackagePath": "staticwebassets\\data\\icons\\vinegar-jar.png"
     },
     {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\imgs\\escala_ph.png",

@@ -11,11 +11,13 @@
       ]
     },
     {
-      "reactionName": "Reação Ácido-Base 2",
+      "reactionName": "Escala de PH com Indicador de Repolho Roxo",
       "items": [
-        { "name": "Óculos de Segurança", "icon": "🥽" },
-        { "name": "Luvas Nitrílicas", "icon": "🧤" },
-        { "name": "Jaleco de Algodão de Manga Longa", "icon": "🥼" }
+        { "name": "Calça comprida", "icon": "👖" },
+        { "name": "Sapato fechado", "icon": "👞" },
+        { "name": "Jaleco", "icon": "🥼" },
+        { "name": "Luvas de látex", "icon": "🧤" },
+        { "name": "Óculos de proteção", "icon": "🥽" }
       ]
     }
   ]
