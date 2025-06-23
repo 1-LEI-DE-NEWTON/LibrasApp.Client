@@ -1106,10 +1106,10 @@ C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\Li
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\be2y4godeq-fcd4k9wgs2.gz
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\yjemf9nefk-momflk1ixf.gz
 C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\nffk78t7em-79h83ocrro.gz
-C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Debug\net9.0\wwwroot\_framework\LibrasApp.Client.lll9ccidft.pdb
-C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Debug\net9.0\wwwroot\_framework\LibrasApp.Client.et1zg1w9gh.wasm
-C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Debug\net9.0\wwwroot\_framework\LibrasApp.Client.lll9ccidft.pdb.gz
-C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Debug\net9.0\wwwroot\_framework\LibrasApp.Client.et1zg1w9gh.wasm.gz
-C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\p3b3hdlg28-et1zg1w9gh.gz
-C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\chirrqz5b0-lll9ccidft.gz
-C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\hwuidlt74v-7vkzmsauj4.gz
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Debug\net9.0\wwwroot\_framework\LibrasApp.Client.f0m2vyhxri.pdb
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Debug\net9.0\wwwroot\_framework\LibrasApp.Client.2dsmlh2b33.wasm
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Debug\net9.0\wwwroot\_framework\LibrasApp.Client.f0m2vyhxri.pdb.gz
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\bin\Debug\net9.0\wwwroot\_framework\LibrasApp.Client.2dsmlh2b33.wasm.gz
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\p3b3hdlg28-2dsmlh2b33.gz
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\chirrqz5b0-f0m2vyhxri.gz
+C:\Users\dell\OneDrive\Estudos\TI\Programação\Códigos\C#\Personal Projects\LibrasQuimicaApp\LibrasApp.Client\obj\Debug\net9.0\compressed\hwuidlt74v-ndlk3p03uy.gz
