@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\data\\epis.json"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\feedback.json",
+      "PackagePath": "staticwebassets\\data\\feedback.json"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\icons\\acido_acetico.png",
       "PackagePath": "staticwebassets\\data\\icons\\acido_acetico.png"
     },

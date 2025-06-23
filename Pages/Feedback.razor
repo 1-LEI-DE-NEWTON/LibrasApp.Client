@@ -1,0 +1,79 @@
+@page "/feedback"
+
+@using System.Text.Json
+@using System.Text
+@inject HttpClient Http
+
+<div class="feedback-container">
+    <h1>Feedback</h1>
+    <p>
+        Este espaço é muito importante para nós!
+    </p>
+    <p>
+        Por favor, conte como foi sua experiência com o LabLibras e deixe suas sugestões para melhorarmos o site. Sua opinião faz toda a diferença!
+    </p>
+    <textarea @bind="UserFeedback" placeholder="Escreva seu feedback aqui..." rows="5" style="width: 100%;"></textarea>
+    <button @onclick="SaveFeedback" style="margin-top: 1rem; padding: 0.5rem 1rem; background-color: #1976d2; color: white; border: none; border-radius: 5px; cursor: pointer;">Enviar</button>
+</div>
+
+<style>
+.feedback-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.feedback-container h1 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-bottom: 0.7rem;
+    color: #1976d2;
+}
+.feedback-container p {
+    font-size: 1.1rem;
+    color: #222;
+}
+textarea {
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+button:hover {
+    background-color: #125ea2;
+}
+</style>
+
+@code {
+    private string UserFeedback { get; set; } = string.Empty;
+
+    private async Task SaveFeedback()
+    {
+        var feedbackList = new List<string>();
+
+        try
+        {
+            var response = await Http.GetStringAsync("data/feedback.json");
+            feedbackList = JsonSerializer.Deserialize<List<string>>(response) ?? new List<string>();
+        }
+        catch
+        {            
+            feedbackList = new List<string>();                
+        }
+
+        feedbackList.Add(UserFeedback);
+
+        var json = JsonSerializer.Serialize(feedbackList);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+        content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+
+        await Http.PutAsync("data/feedback.json", content);
+
+        UserFeedback = string.Empty;
+    }
+}
