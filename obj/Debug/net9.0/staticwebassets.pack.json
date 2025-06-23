@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\data\\materiais.json"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\quiz.json",
+      "PackagePath": "staticwebassets\\data\\quiz.json"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\reacoes.json",
       "PackagePath": "staticwebassets\\data\\reacoes.json"
     },

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\chemistry-bg.png"
     },
     {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\conclusion.json",
+      "PackagePath": "staticwebassets\\data\\conclusion.json"
+    },
+    {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\epis.json",
       "PackagePath": "staticwebassets\\data\\epis.json"
     },
@@ -103,6 +107,10 @@
     {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\materiais.json",
       "PackagePath": "staticwebassets\\data\\materiais.json"
+    },
+    {
+      "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\quiz.json",
+      "PackagePath": "staticwebassets\\data\\quiz.json"
     },
     {
       "Id": "C:\\Users\\dell\\OneDrive\\Estudos\\TI\\Programação\\Códigos\\C#\\Personal Projects\\LibrasQuimicaApp\\LibrasApp.Client\\wwwroot\\data\\reacoes.json",

@@ -1,0 +1,289 @@
+@page "/Quiz"
+
+<div class="quiz-container">
+    <h1>Missão pH em ação!</h1>
+    @if (currentStep == 0)
+    {
+        <div class="quiz-intro">
+            <h3>Como Jogar:</h3>
+            <ul class="quiz-howto">
+                <li>Leia cada pergunta com calma (sem limite de tempo).</li>
+                <li>Escolha uma alternativa.</li>
+                <li>Some os pontos ao final.</li>
+            </ul>
+            <ul class="quiz-score">
+                <h3>Pontuação:</h3>
+                <li>Você começa com 0 pontos.</li>                
+                <li>Cada acerto: 100 pontos.</li>
+                <li>3 acertos seguidos: +100 pontos extra.</li>
+                <li>Chefões: valem 200 pontos.</li>
+            </ul>
+            <button class="single-btn" @onclick="StartQuiz">Testar conhecimentos</button>
+        </div>
+    }
+    else if (currentStep <= questions.Count)
+    {
+        var q = questions[currentStep - 1];
+        <div class="quiz-question">
+            <h3>@q.Question</h3>
+            <ul class="quiz-options">
+                @for (int i = 0; i < q.Options.Count; i++)
+                {
+                    var optionIndex = i;
+                    <li @key="@($"option_{currentStep}_{i}")">
+                        <label>
+                            <input type="radio" name="option"
+                                   value="@optionIndex"
+                                   checked="@(selectedOption == optionIndex)"
+                                   @onclick="@(() => SelectOption(optionIndex))" />
+                            @q.Options[optionIndex]
+                        </label>
+                    </li>
+                }
+            </ul>
+            <button class="next-btn" @onclick="NextQuestion" disabled="@(selectedOption == null)">
+                @(currentStep == questions.Count ? "Finalizar" : "Próximo")
+            </button>
+        </div>
+    }
+    else
+    {
+        <div class="quiz-result">
+            <h3>Resultado do Quiz</h3>
+            <h4>Gabarito:</h4>
+            <ul class="quiz-answers">
+                @for (int i = 0; i < questions.Count; i++)
+                {
+                    var q = questions[i];
+                    <li>
+                        <p><b>Pergunta:</b> @q.Question</p>
+                        <p><b>Alternativa correta:</b> @q.Options[q.CorrectIndex]</p>
+                        <p><b>Sua resposta:</b>
+                            @(userAnswers[i] is int answer && answer >= 0 && answer < q.Options.Count
+                                ? q.Options[answer]
+                                : "Não respondida")
+                        </p>
+                    </li>
+                }
+            </ul>
+            <h4>Pontuação Final: @score</h4>
+            <div class="quiz-controls">
+                <button class="back-btn" @onclick="FinishQuiz">Finalizar</button>
+                <button class="next-btn" @onclick="RestartQuiz">Tentar de novo</button>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private int currentStep = 0;
+    private int? selectedOption = null;
+    private List<QuizQuestion> questions = new();
+    private List<int?> userAnswers = new();
+    private int score = 0;
+    private int consecutiveCorrectAnswers = 0;
+
+    public class QuizQuestion
+    {
+        public string Question { get; set; } = string.Empty;
+        public List<string> Options { get; set; } = new();
+        public int CorrectIndex { get; set; }
+        public bool IsBoss { get; set; } = false;
+    }
+
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+    [Inject]
+    private HttpClient Http { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var json = await Http.GetStringAsync("data/quiz.json");
+        questions = System.Text.Json.JsonSerializer.Deserialize<List<QuizQuestion>>(json) ?? new List<QuizQuestion>();
+        userAnswers = new List<int?>(new int?[questions.Count]);
+        currentStep = 0;
+        selectedOption = null;
+        score = 0;
+        consecutiveCorrectAnswers = 0;
+    }
+
+    private void StartQuiz()
+    {
+        currentStep = 1;
+        selectedOption = null;
+        userAnswers = new List<int?>(new int?[questions.Count]);
+        score = 0;
+        consecutiveCorrectAnswers = 0;
+    }
+
+    private void SelectOption(int i)
+    {
+        selectedOption = i;
+    }
+
+    private void NextQuestion()
+    {
+        if (selectedOption != null && currentStep > 0 && currentStep <= questions.Count)
+        {
+            var q = questions[currentStep - 1];
+            userAnswers[currentStep - 1] = selectedOption;
+
+            if (selectedOption == q.CorrectIndex)
+            {
+                score += q.IsBoss ? 200 : 100;
+                consecutiveCorrectAnswers++;
+
+                if (consecutiveCorrectAnswers == 3)
+                {
+                    score += 100;
+                    consecutiveCorrectAnswers = 0; // Reset streak
+                }
+            }
+            else
+            {
+                consecutiveCorrectAnswers = 0; // Reset streak
+            }
+
+            selectedOption = null;
+            currentStep++;
+        }
+    }
+
+    private void FinishQuiz()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+    private void RestartQuiz()
+    {
+        currentStep = 0;
+        selectedOption = null;
+        userAnswers = new List<int?>(new int?[questions.Count]);
+        score = 0;
+        consecutiveCorrectAnswers = 0;
+    }
+}
+
+<style>
+.quiz-container {
+    max-width: 700px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color:  #222;    
+}
+.quiz-container h1 {
+    font-size: 2rem;
+    color: #1976d2;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+.quiz-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.quiz-howto, .quiz-score {
+    text-align: left;
+    margin: 0 auto 1.2rem auto;
+    max-width: 500px;
+    font-size: 1.08rem;
+    color: #222;
+    padding-left: 1.2rem;
+}
+.quiz-howto li, .quiz-score li {
+    margin-bottom: 0.5rem;
+}
+.quiz-question h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+}
+.quiz-options {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+.quiz-options li {
+    margin-bottom: 1rem;
+}
+.quiz-options label {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.quiz-result {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.quiz-answers {
+    text-align: left;
+    margin: 1rem auto;
+    max-width: 500px;
+    font-size: 1.1rem;
+    color: #222;
+    padding-left: 1.2rem;
+}
+.quiz-answers li {
+    margin-bottom: 1rem;
+}
+.quiz-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.single-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+    margin: 0 auto;
+}
+.single-btn:hover {
+    background: #2563eb;
+}
+.next-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.next-btn:disabled {
+    background: #b0cbe0;
+    cursor: not-allowed;
+}
+.next-btn:hover:not(:disabled) {
+    background: #2563eb;
+}
+.back-btn {
+    background: #c9e0f2;
+    color: #222;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.back-btn:hover {
+    background: #b0cbe0;
+}
+.quiz-score h3 {
+    text-align: center;
+}
+</style>

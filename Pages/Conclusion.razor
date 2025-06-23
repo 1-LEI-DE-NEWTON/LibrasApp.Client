@@ -26,8 +26,20 @@
         }
     </div>
     <div class="conclusion-controls">
-        <button class="back-btn" @onclick="() => PreviousPart()">Voltar</button>
-        <button class="next-btn" @onclick="() => NextPart()">@(currentPart == conclusionParts.Count - 1 ? "Finalizar" : "Próximo")</button>
+        @if (currentPart == 0)
+        {
+            <button class="single-btn" @onclick="() => NextPart()">Próximo</button>
+        }
+        else if (currentPart == conclusionParts.Count - 1)
+        {
+            <button class="back-btn" @onclick="() => Finish()">Finalizar</button>
+            <button class="next-btn" @onclick="() => GoToQuiz()">Seguir para o Quiz</button>
+        }
+        else
+        {
+            <button class="back-btn" @onclick="() => PreviousPart()">Voltar</button>
+            <button class="next-btn" @onclick="() => NextPart()">Próximo</button>
+        }
     </div>
 </div>
 
@@ -67,6 +79,14 @@
         {
             NavigationManager.NavigateTo("/");
         }
+    }
+    private void Finish()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+    private void GoToQuiz()
+    {
+        NavigationManager.NavigateTo("/Quiz");
     }
 }
 
@@ -135,6 +155,22 @@
     transition: background 0.2s;
 }
 .next-btn:hover {
+    background: #2563eb;
+}
+.single-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+    margin: 0 auto;
+}
+.single-btn:hover {
     background: #2563eb;
 }
 </style>

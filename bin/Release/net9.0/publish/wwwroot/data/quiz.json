@@ -1,0 +1,47 @@
+[
+  {
+    "Question": "O que acontece quando misturamos vinagre com bicarbonato de sódio?",
+    "Options": [
+      "A mistura fica transparente",
+      "Forma bolhas e libera gás",
+      "Nada muda"
+    ],
+    "CorrectIndex": 1
+  },
+  {
+    "Question": "Para que serve o repolho roxo nessa atividade?",
+    "Options": [
+      "Fazer bolhas",
+      "Indicar o pH da solução",
+      "Colorir a solução"
+    ],
+    "CorrectIndex": 1
+  },
+  {
+    "Question": "Quando o vinagre é colocado no repolho roxo, que cor aparece?",
+    "Options": [
+      "Rosa ou vermelho",
+      "Azul",
+      "Verde"
+    ],
+    "CorrectIndex": 0
+  },
+  {
+    "Question": "Qual gás aparece na reação do vinagre com o bicarbonato?",
+    "Options": [
+      "Oxigênio",
+      "Gás carbônico (CO₂)",
+      "Gás hélio"
+    ],
+    "CorrectIndex": 1
+  },
+  {
+    "Question": "Qual é o melhor sinal de que a solução ficou neutra (pH ~7)?",
+    "Options": [
+      "A coloração fica roxa",
+      "A coloração fica azul",
+      "A solução desaparece"
+    ],
+    "CorrectIndex": 0
+  }
+]
