@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "LibrasApp.Client",
   "resources": {
-    "hash": "sha256-z2RWpyo48ZPnP9300G5j8qiSdcW1aa520SrFzji5SQQ=",
+    "hash": "sha256-JPxunp08G/dYJg8T5ECQhcOb5zl0eX82eU2CiFYgLHw=",
     "fingerprinting": {
-      "LibrasApp.Client.4x8nvf10yk.wasm": "LibrasApp.Client.wasm",
+      "LibrasApp.Client.w9j53igjcb.wasm": "LibrasApp.Client.wasm",
       "Microsoft.AspNetCore.Components.1q0307mxmd.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.pq1s9tpl5w.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.ojjbeuchn6.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -64,7 +64,7 @@
       "System.Runtime.InteropServices.JavaScript.mwa725m7o8.wasm": "sha256-Cjdb0G7x7YHp1aN8K34JIjyB6iQIEsmMfoZJJ71ZuOw="
     },
     "assembly": {
-      "LibrasApp.Client.4x8nvf10yk.wasm": "sha256-GEhkjDCoUC30FmXAG0TVzPTyqduGF2v5Tg9vS1c/UTY=",
+      "LibrasApp.Client.w9j53igjcb.wasm": "sha256-LOT3isbhlyCnX+uMwPEaAS8daDioMyyV7yzhHT5xjTI=",
       "Microsoft.AspNetCore.Components.1q0307mxmd.wasm": "sha256-l70HNCTpTRqf7jqYIngNNetGSR1P78pdg+i2usUSoTk=",
       "Microsoft.AspNetCore.Components.Web.pq1s9tpl5w.wasm": "sha256-L/vXNWFdWzaeEfyWsCdr4529OiDf9c+AR/CT6Lw5ZCw=",
       "Microsoft.AspNetCore.Components.WebAssembly.ojjbeuchn6.wasm": "sha256-TMJrwxmh7raq50FXlf8OFb9/PXWC0dJ48IVhshQE3jE=",
