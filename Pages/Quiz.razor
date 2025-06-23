@@ -25,6 +25,10 @@
     {
         var q = questions[currentStep - 1];
         <div class="quiz-question">
+            @if (q.IsBoss)
+            {
+                <h3 style="color: red; text-align: center;">@q.BossName</h3>
+            }
             <h3>@q.Question</h3>
             <ul class="quiz-options">
                 @for (int i = 0; i < q.Options.Count; i++)
@@ -46,11 +50,33 @@
             </button>
         </div>
     }
-    else
+    else if (currentStep == questions.Count + 1)
     {
         <div class="quiz-result">
-            <h3>Resultado do Quiz</h3>
-            <h4>Gabarito:</h4>
+            <h3>RESULTADO FINAL</h3>
+            @if (score >= 1000)
+            {
+                <p>Mestre da Neutralização! 🧠</p>
+            }
+            else if (score >= 700)
+            {
+                <p>Cientista em formação 🧪</p>
+            }
+            else
+            {
+                <p>Continue praticando no laboratório! 🧑‍🔬</p>
+            }
+            <h4>Pontuação Final: @score</h4>
+            <div class="quiz-controls">
+                <button class="back-btn" @onclick="FinishQuiz">Finalizar</button>
+                <button class="next-btn" @onclick="ShowAnswers">Ver gabarito</button>
+            </div>
+        </div>
+    }
+    else if (currentStep == questions.Count + 2)
+    {
+        <div class="quiz-result">
+            <h3>Gabarito</h3>
             <ul class="quiz-answers">
                 @for (int i = 0; i < questions.Count; i++)
                 {
@@ -66,7 +92,6 @@
                     </li>
                 }
             </ul>
-            <h4>Pontuação Final: @score</h4>
             <div class="quiz-controls">
                 <button class="back-btn" @onclick="FinishQuiz">Finalizar</button>
                 <button class="next-btn" @onclick="RestartQuiz">Tentar de novo</button>
@@ -89,6 +114,7 @@
         public List<string> Options { get; set; } = new();
         public int CorrectIndex { get; set; }
         public bool IsBoss { get; set; } = false;
+        public string? BossName { get; set; }
     }
 
     [Inject]
@@ -136,12 +162,12 @@
                 if (consecutiveCorrectAnswers == 3)
                 {
                     score += 100;
-                    consecutiveCorrectAnswers = 0; // Reset streak
+                    consecutiveCorrectAnswers = 0;
                 }
             }
             else
             {
-                consecutiveCorrectAnswers = 0; // Reset streak
+                consecutiveCorrectAnswers = 0;
             }
 
             selectedOption = null;
@@ -152,6 +178,11 @@
     private void FinishQuiz()
     {
         NavigationManager.NavigateTo("/");
+    }
+
+    private void ShowAnswers()
+    {
+        currentStep = questions.Count + 2;
     }
 
     private void RestartQuiz()
@@ -200,6 +231,7 @@
     margin-bottom: 0.5rem;
 }
 .quiz-question h3 {
+    text-align: center;
     font-size: 1.3rem;
     margin-bottom: 1.2rem;
 }

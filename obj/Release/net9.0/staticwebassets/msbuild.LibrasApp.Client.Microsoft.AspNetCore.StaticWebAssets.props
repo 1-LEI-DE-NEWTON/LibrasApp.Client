@@ -462,8 +462,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4ubrrhwmyr</Fingerprint>
-      <Integrity>VCwKKAfdk+SDXlXa33nsIvViI/nQ4HtZpmgz7wV+vSY=</Integrity>
+      <Fingerprint>fcd4k9wgs2</Fingerprint>
+      <Integrity>j3QdCqEENSUCsgrlaugYMSFkvBIQOrVZ48xO6VYGA2w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\quiz.json'))</OriginalItemSpec>

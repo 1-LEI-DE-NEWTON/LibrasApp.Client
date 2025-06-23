@@ -2,46 +2,59 @@
   {
     "Question": "O que acontece quando misturamos vinagre com bicarbonato de sódio?",
     "Options": [
-      "A mistura fica transparente",
-      "Forma bolhas e libera gás",
-      "Nada muda"
+      "A) A mistura fica transparente",
+      "B) Forma bolhas e libera gás",
+      "C) Nada muda"
     ],
     "CorrectIndex": 1
   },
   {
     "Question": "Para que serve o repolho roxo nessa atividade?",
     "Options": [
-      "Fazer bolhas",
-      "Indicar o pH da solução",
-      "Colorir a solução"
+      "A) Fazer bolhas",
+      "B) Indicar o pH da solução",
+      "C) Colorir a solução"
     ],
     "CorrectIndex": 1
   },
   {
     "Question": "Quando o vinagre é colocado no repolho roxo, que cor aparece?",
     "Options": [
-      "Rosa ou vermelho",
-      "Azul",
-      "Verde"
+      "A) Rosa ou vermelho",
+      "B) Azul",
+      "C) Verde"
     ],
     "CorrectIndex": 0
   },
   {
+    "Question": "Desafio visual: Observe o seu experimento, com base nele responda:\nA mistura de vinagre + indicador de repolho roxo + bicarbonato de sódio.\nO que aconteceu com a cor?",
+    "Options": [
+      "A) Continua rosa",
+      "B) Muda para azul",
+      "C) Fica transparente"
+    ],
+    "CorrectIndex": 1,
+    "IsBoss": true,
+    "BossName": "CHEFÃO 1 – Sr. Ácido"
+  },
+  {
     "Question": "Qual gás aparece na reação do vinagre com o bicarbonato?",
     "Options": [
-      "Oxigênio",
-      "Gás carbônico (CO₂)",
-      "Gás hélio"
+      "A) Oxigênio",
+      "B) Gás carbônico (CO₂)",
+      "C) Gás hélio"
     ],
     "CorrectIndex": 1
   },
   {
     "Question": "Qual é o melhor sinal de que a solução ficou neutra (pH ~7)?",
     "Options": [
-      "A coloração fica roxa",
-      "A coloração fica azul",
-      "A solução desaparece"
+      "A) A coloração fica roxa",
+      "B) A coloração fica azul",
+      "C) A solução desaparece"
     ],
-    "CorrectIndex": 0
+    "CorrectIndex": 0,
+    "IsBoss": true,
+    "BossName": "CHEFÃO 2 – Dona Base"
   }
 ]
