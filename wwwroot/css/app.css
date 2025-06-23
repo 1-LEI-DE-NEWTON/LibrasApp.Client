@@ -236,9 +236,76 @@ code {
     }
 }
 
+/* Responsividade para botões da tela de quiz */
+.quiz-controls {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.back-btn, .next-btn {
+    min-width: 140px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .quiz-controls {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: stretch;
+    }
+    .back-btn, .next-btn {
+        width: 100%;
+        min-width: unset;
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+        margin-bottom: 0;
+    }
+}
+
+/* Responsividade para botões da tela de conclusão */
+.conclusion-controls {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.back-btn, .next-btn, .single-btn {
+    min-width: 140px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .conclusion-controls {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: stretch;
+    }
+    .back-btn, .next-btn, .single-btn {
+        width: 100%;
+        min-width: unset;
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+        margin-bottom: 0;
+    }
+}
+
 @media (max-width: 640.98px) {
     .reaction-list a {
         font-size: 1rem;
         padding: 0.85rem;
+    }
+}
+
+/* Estilos para o título da seção de EPIs */
+.epis-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .epis-title {
+        font-size: 1.8rem;
+        word-wrap: break-word;
+        text-align: left;
     }
 }
